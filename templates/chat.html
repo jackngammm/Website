@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat — {{ hotel_name }}</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 55%, #f9ca24 100%);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 16px;
+    }
+
+    .chat-wrapper {
+      width: 100%;
+      max-width: 480px;
+      display: flex;
+      flex-direction: column;
+      height: calc(100vh - 40px);
+    }
+
+    /* Header */
+    .chat-header {
+      background: white;
+      border-radius: 20px 20px 0 0;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    }
+    .chat-avatar {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+    .chat-header-info { flex: 1; }
+    .chat-header-name { font-size: 16px; font-weight: 800; color: #1a1a1a; line-height: 1; }
+    .chat-header-status { font-size: 12px; color: #888; margin-top: 2px; }
+    .chat-header-status span { color: #4caf50; font-weight: 600; }
+    .back-btn {
+      color: #ee5a24;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .back-btn:hover { opacity: 0.8; }
+
+    /* Messages */
+    .messages {
+      flex: 1;
+      background: #f8f8f8;
+      padding: 20px 16px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .message {
+      display: flex;
+      flex-direction: column;
+      max-width: 78%;
+    }
+    .message.bot { align-self: flex-start; align-items: flex-start; }
+    .message.user { align-self: flex-end; align-items: flex-end; }
+
+    .bubble {
+      padding: 11px 15px;
+      border-radius: 18px;
+      font-size: 14px;
+      line-height: 1.5;
+      word-break: break-word;
+    }
+    .message.bot .bubble {
+      background: white;
+      color: #1a1a1a;
+      border-bottom-left-radius: 4px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .message.user .bubble {
+      background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+      color: white;
+      border-bottom-right-radius: 4px;
+    }
+    .msg-time {
+      font-size: 10px;
+      color: #bbb;
+      margin-top: 3px;
+      padding: 0 4px;
+    }
+
+    /* Input area */
+    .input-area {
+      background: white;
+      border-radius: 0 0 20px 20px;
+      padding: 14px 16px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      box-shadow: 0 -2px 12px rgba(0,0,0,0.06);
+    }
+    .input-area input {
+      flex: 1;
+      border: 1.5px solid #e8e8e8;
+      border-radius: 24px;
+      padding: 10px 16px;
+      font-size: 14px;
+      font-family: 'Poppins', sans-serif;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .input-area input:focus { border-color: #ee5a24; }
+    .send-btn {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+      color: white;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      flex-shrink: 0;
+      transition: transform 0.15s;
+    }
+    .send-btn:hover { transform: scale(1.08); }
+    .send-btn:active { transform: scale(0.95); }
+  </style>
+</head>
+<body>
+
+  <div class="chat-wrapper">
+
+    <div class="chat-header">
+      <div class="chat-avatar"><i class="fas fa-hotel"></i></div>
+      <div class="chat-header-info">
+        <div class="chat-header-name">{{ hotel_name }}</div>
+        <div class="chat-header-status"><span>● Online</span> — Concierge Bot</div>
+      </div>
+      <a href="{{ url_for('liked_hotels') }}" class="back-btn"><i class="fas fa-arrow-left"></i> Back</a>
+    </div>
+
+    <div class="messages" id="messagesDiv">
+      {% for msg in messages %}
+      <div class="message {{ msg.sender }}">
+        <div class="bubble">{{ msg.text }}</div>
+        <div class="msg-time">{{ 'Concierge' if msg.sender == 'bot' else 'You' }}</div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <form class="input-area" method="POST" action="{{ url_for('chat', hotel_name=hotel_name) }}" onsubmit="scrollDown()">
+      <input type="text" name="message" placeholder="Ask anything about this hotel..." autocomplete="off" autofocus>
+      <button type="submit" class="send-btn"><i class="fas fa-paper-plane"></i></button>
+    </form>
+
+  </div>
+
+  <script>
+    function scrollDown() {
+      const div = document.getElementById('messagesDiv');
+      div.scrollTop = div.scrollHeight;
+    }
+    scrollDown();
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HotelMatch — Find Your Stay</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 55%, #f9ca24 100%);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 16px 40px;
+      gap: 16px;
+    }
+
+    .topbar {
+      width: 100%;
+      max-width: 420px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+    .topbar h1 { font-size: 22px; font-weight: 800; color: white; letter-spacing: -0.5px; }
+    .topbar-right { display: flex; gap: 8px; align-items: center; }
+    .topbar a {
+      color: rgba(255,255,255,0.9);
+      font-size: 13px;
+      text-decoration: none;
+      background: rgba(255,255,255,0.2);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-weight: 600;
+    }
+    .topbar a:hover { background: rgba(255,255,255,0.3); }
+    .likes-btn {
+      color: white;
+      font-size: 13px;
+      text-decoration: none;
+      background: rgba(255,255,255,0.25);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-weight: 700;
+      border: 1.5px solid rgba(255,255,255,0.4);
+    }
+    .likes-btn:hover { background: rgba(255,255,255,0.35); }
+
+    .progress-wrap { width: 100%; max-width: 420px; }
+    .progress-bar {
+      width: 100%;
+      background: rgba(255,255,255,0.3);
+      height: 5px;
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    .progress-fill {
+      height: 100%;
+      background: white;
+      border-radius: 3px;
+      transition: width 0.4s ease;
+    }
+    .progress-label {
+      color: rgba(255,255,255,0.9);
+      font-size: 12px;
+      text-align: center;
+      margin-top: 5px;
+      font-weight: 600;
+    }
+
+    .super-counter {
+      color: white;
+      font-size: 13px;
+      font-weight: 600;
+      text-align: center;
+      background: rgba(255,255,255,0.2);
+      padding: 5px 16px;
+      border-radius: 20px;
+    }
+    .super-counter i { color: #f9ca24; margin-right: 4px; }
+
+    .hotel-card {
+      width: 100%;
+      max-width: 400px;
+      background: white;
+      border-radius: 24px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+      overflow: hidden;
+      position: relative;
+      animation: cardIn 0.3s ease;
+    }
+    @keyframes cardIn {
+      from { opacity: 0; transform: scale(0.95) translateY(10px); }
+      to   { opacity: 1; transform: scale(1) translateY(0); }
+    }
+
+    .match-badge {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+      color: white;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(238,90,36,0.45);
+      z-index: 2;
+    }
+
+    .hotel-photo {
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .card-body { padding: 20px 20px 16px; }
+
+    .hotel-name { font-size: 22px; font-weight: 800; color: #1a1a1a; line-height: 1.1; }
+    .hotel-brand { font-size: 12px; color: #aaa; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 1px; }
+    .hotel-location { font-size: 13px; color: #777; margin-top: 3px; }
+    .hotel-price { font-size: 20px; font-weight: 800; color: #ee5a24; margin-top: 6px; }
+    .hotel-price span { font-size: 13px; font-weight: 400; color: #aaa; }
+    .stars { color: #f9ca24; font-size: 14px; margin-top: 3px; letter-spacing: 1px; }
+
+    .vibes { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+    .vibe-tag {
+      background: #fff3ee;
+      border: 1.5px solid #ffd5c2;
+      color: #ee5a24;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 20px;
+    }
+
+    .amenities { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+    .pill {
+      background: #f5f5f5;
+      color: #555;
+      font-size: 11px;
+      padding: 4px 10px;
+      border-radius: 20px;
+      border: 1px solid #e8e8e8;
+    }
+
+    .divider { height: 1px; background: #f0f0f0; margin: 14px 0; }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: 2px;
+    }
+    .info-item { display: flex; flex-direction: column; }
+    .info-label { font-size: 10px; font-weight: 700; color: #bbb; text-transform: uppercase; letter-spacing: 0.5px; }
+    .info-value { font-size: 13px; font-weight: 700; color: #333; margin-top: 1px; }
+
+    .satisfaction-bar {
+      height: 6px;
+      background: #f0f0f0;
+      border-radius: 3px;
+      overflow: hidden;
+      margin-top: 4px;
+    }
+    .satisfaction-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #ff6b6b, #ee5a24);
+      border-radius: 3px;
+      transition: width 0.4s ease;
+    }
+
+    .actions {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 18px;
+      padding: 16px 0 4px;
+    }
+    .btn-action {
+      border: none;
+      cursor: pointer;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .btn-action:hover { transform: scale(1.12); box-shadow: 0 8px 24px rgba(0,0,0,0.18); }
+    .btn-action:active { transform: scale(0.96); }
+
+    .btn-dislike { width: 62px; height: 62px; background: white; border: 2.5px solid #ffb3b3; color: #ff6b6b; font-size: 22px; }
+    .btn-superlike { width: 54px; height: 54px; background: linear-gradient(135deg, #f9ca24, #f0932b); color: white; font-size: 18px; }
+    .btn-like { width: 62px; height: 62px; background: linear-gradient(135deg, #ff6b6b, #ee5a24); color: white; font-size: 22px; }
+
+    .empty-card {
+      width: 100%;
+      max-width: 400px;
+      background: white;
+      border-radius: 24px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+      padding: 48px 32px;
+      text-align: center;
+    }
+    .empty-card i { font-size: 52px; color: #ee5a24; margin-bottom: 16px; display: block; }
+    .empty-card h2 { font-size: 22px; font-weight: 800; color: #1a1a1a; margin-bottom: 8px; }
+    .empty-card p { color: #888; font-size: 14px; margin-bottom: 24px; }
+
+    .btn-primary {
+      display: inline-block;
+      background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+      color: white;
+      border: none;
+      border-radius: 50px;
+      padding: 13px 28px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+    }
+    .btn-secondary {
+      display: inline-block;
+      background: white;
+      color: #ee5a24;
+      border: 2px solid #ee5a24;
+      border-radius: 50px;
+      padding: 11px 24px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      margin-left: 10px;
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <h1>🏨 HotelMatch</h1>
+    <div class="topbar-right">
+      <a href="/liked_hotels" class="likes-btn" id="likesBtn">❤️ 0</a>
+      <a href="{{ url_for('preferences') }}"><i class="fas fa-sliders-h"></i></a>
+    </div>
+  </div>
+
+  <div class="progress-wrap">
+    <div class="progress-bar">
+      <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+    </div>
+    <div class="progress-label" id="progressLabel">Loading hotels...</div>
+  </div>
+
+  <div class="super-counter">
+    <i class="fas fa-star"></i> <span id="superCount">5</span> Super Likes left
+  </div>
+
+  <div id="cardContainer">
+    {% if hotels %}
+      <div class="hotel-card" id="hotelCard">
+        <div class="match-badge" id="matchBadge">🔥 --% Match</div>
+        <img class="hotel-photo" id="hotelPhoto" src="" alt="Hotel">
+        <div class="card-body">
+          <div class="hotel-name" id="hotelName">--</div>
+          <div class="hotel-brand" id="hotelBrand">--</div>
+          <div class="hotel-location" id="hotelLocation">📍 --</div>
+          <div class="hotel-price" id="hotelPrice">$-- <span>/ night</span></div>
+          <div class="stars" id="hotelStars"></div>
+          <div class="vibes" id="hotelVibes"></div>
+          <div class="amenities" id="hotelAmenities"></div>
+
+          <div class="divider"></div>
+          <div class="info-grid">
+            <div class="info-item">
+              <span class="info-label">Rooms</span>
+              <span class="info-value" id="hotelRooms">--</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Renovated</span>
+              <span class="info-value" id="hotelRenovated">--</span>
+            </div>
+            <div class="info-item" style="grid-column: span 2;">
+              <span class="info-label">Guest Satisfaction <span id="satisfactionScore" style="color:#ee5a24"></span></span>
+              <div class="satisfaction-bar"><div class="satisfaction-fill" id="satisfactionFill" style="width:0%"></div></div>
+            </div>
+          </div>
+
+          <div class="actions">
+            <button class="btn-action btn-dislike" onclick="dislikeHotel()" title="Pass">
+              <i class="fas fa-times"></i>
+            </button>
+            <button class="btn-action btn-superlike" onclick="superLikeHotel()" title="Super Like" id="superLikeBtn">
+              <i class="fas fa-star"></i>
+            </button>
+            <button class="btn-action btn-like" onclick="likeHotel()" title="Like">
+              <i class="fas fa-heart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    {% else %}
+      <div class="empty-card">
+        <i class="fas fa-search"></i>
+        <h2>No hotels found</h2>
+        <p>Try adjusting your location or budget range to see more options.</p>
+        <a href="{{ url_for('preferences') }}" class="btn-primary">Adjust Filters</a>
+      </div>
+    {% endif %}
+  </div>
+
+  <script>
+    const hotels = {{ hotels | tojson }};
+    let currentIndex = 0;
+    const likedHotels = {{ existing_liked | tojson }};
+    const existingSuperLiked = {{ existing_super_liked | tojson }};
+    let superLikesLeft = Math.max(0, 5 - existingSuperLiked.length);
+
+    function renderStars(rating) {
+      const full = Math.floor(rating);
+      let s = '★'.repeat(full);
+      if (rating % 1 >= 0.5) s += '½';
+      return s + ` (${rating})`;
+    }
+
+    function displayHotel() {
+      if (currentIndex >= hotels.length) {
+        saveLikedHotels();
+        document.getElementById('cardContainer').innerHTML = `
+          <div class="empty-card">
+            <i class="fas fa-check-circle" style="color:#ee5a24"></i>
+            <h2>You've seen them all!</h2>
+            <p>You liked ${likedHotels.length} hotel${likedHotels.length !== 1 ? 's' : ''}. Check your matches!</p>
+            <a href="/liked_hotels" class="btn-primary">View Matches</a>
+            <a href="/preferences" class="btn-secondary">Search Again</a>
+          </div>`;
+        return;
+      }
+
+      const h = hotels[currentIndex];
+      const total = hotels.length;
+
+      document.getElementById('progressFill').style.width = `${(currentIndex / total) * 100}%`;
+      document.getElementById('progressLabel').textContent = `${currentIndex} of ${total} hotels swiped`;
+
+      document.getElementById('matchBadge').textContent = `🔥 ${h.match_score}% Match`;
+      document.getElementById('hotelPhoto').src = h.photo || '';
+      document.getElementById('hotelPhoto').alt = h.Hotel_Name;
+      document.getElementById('hotelName').textContent = h.Hotel_Name;
+      document.getElementById('hotelBrand').textContent = h.Brand || '';
+      document.getElementById('hotelLocation').textContent = `📍 ${h.Location}`;
+      document.getElementById('hotelPrice').innerHTML = `$${Number(h.Price_Per_Night).toFixed(0)} <span>/ night</span>`;
+      document.getElementById('hotelStars').textContent = renderStars(h.Rating);
+
+      const vibesEl = document.getElementById('hotelVibes');
+      vibesEl.innerHTML = '';
+      (h.vibes || []).forEach(v => {
+        const span = document.createElement('span');
+        span.className = 'vibe-tag';
+        span.textContent = v;
+        vibesEl.appendChild(span);
+      });
+
+      const amenitiesEl = document.getElementById('hotelAmenities');
+      amenitiesEl.innerHTML = '';
+      const amenityMap = [
+        [h.Pet_Friendly, '🐾 Pet Friendly'],
+        [h.WiFi_Included, '📶 Free WiFi'],
+        [h.Restaurant_Available, '🍽️ Restaurant'],
+        [h.Business_Center_Available, '💼 Business Center'],
+      ];
+      amenityMap.forEach(([val, label]) => {
+        if (val) {
+          const span = document.createElement('span');
+          span.className = 'pill';
+          span.textContent = label;
+          amenitiesEl.appendChild(span);
+        }
+      });
+      const airportPill = document.createElement('span');
+      airportPill.className = 'pill';
+      airportPill.textContent = `✈️ ${Number(h.Distance_to_Airport).toFixed(1)}mi to airport`;
+      amenitiesEl.appendChild(airportPill);
+
+      // Extra info
+      document.getElementById('hotelRooms').textContent = h.Number_of_Rooms ? `${h.Number_of_Rooms} rooms` : '--';
+      document.getElementById('hotelRenovated').textContent = h.Last_Renovated || '--';
+      const sat = h.Customer_Satisfaction_Score || 0;
+      document.getElementById('satisfactionScore').textContent = `${sat}/10`;
+      document.getElementById('satisfactionFill').style.width = `${sat * 10}%`;
+
+      const card = document.getElementById('hotelCard');
+      if (card) { card.style.animation = 'none'; card.offsetHeight; card.style.animation = 'cardIn 0.3s ease'; }
+    }
+
+    function updateLikesBtn() {
+      const total = likedHotels.length + (5 - superLikesLeft);
+      const btn = document.getElementById('likesBtn');
+      btn.innerHTML = `&#10084;&#65039; ${total}`;
+    }
+
+    function saveLikedHotels() {
+      fetch('/save_liked_hotels', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ liked_hotels: likedHotels })
+      });
+    }
+
+    function likeHotel() {
+      if (currentIndex < hotels.length) {
+        likedHotels.push(hotels[currentIndex]);
+        currentIndex++;
+        updateLikesBtn();
+        saveLikedHotels();
+        displayHotel();
+      }
+    }
+
+    function dislikeHotel() {
+      currentIndex++;
+      displayHotel();
+    }
+
+    function superLikeHotel() {
+      if (superLikesLeft <= 0) {
+        alert("No Super Likes left! They reset when you start a new search.");
+        return;
+      }
+      if (currentIndex >= hotels.length) return;
+      fetch('/save_super_liked_hotel', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(hotels[currentIndex])
+      }).then(r => r.json()).then(data => {
+        if (data.status === 'limit_reached') { alert("Super Like limit reached!"); return; }
+        superLikesLeft--;
+        document.getElementById('superCount').textContent = superLikesLeft;
+        if (superLikesLeft === 0) document.getElementById('superLikeBtn').style.opacity = '0.4';
+        updateLikesBtn();
+        currentIndex++;
+        displayHotel();
+      });
+    }
+
+    {% if hotels %}
+    updateLikesBtn();
+    document.getElementById('superCount').textContent = superLikesLeft;
+    if (superLikesLeft === 0) document.getElementById('superLikeBtn').style.opacity = '0.4';
+    displayHotel();
+    {% endif %}
+  </script>
+
+</body>
+</html>

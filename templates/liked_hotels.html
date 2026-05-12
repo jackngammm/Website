@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HotelMatch — Your Matches</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 55%, #f9ca24 100%);
+      min-height: 100vh;
+      padding: 24px 16px 48px;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 700px;
+      margin: 0 auto 24px;
+    }
+    .topbar h1 { font-size: 22px; font-weight: 800; color: white; }
+    .topbar a {
+      color: rgba(255,255,255,0.9);
+      font-size: 13px;
+      text-decoration: none;
+      background: rgba(255,255,255,0.2);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-weight: 600;
+    }
+    .topbar a:hover { background: rgba(255,255,255,0.3); }
+
+    .section-label {
+      max-width: 700px;
+      margin: 0 auto 12px;
+      font-size: 13px;
+      font-weight: 700;
+      color: rgba(255,255,255,0.95);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .hotel-list { max-width: 700px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px; }
+
+    .hotel-card {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+      overflow: hidden;
+      display: flex;
+      flex-direction: row;
+    }
+    .hotel-card.super {
+      border: 3px solid #f9ca24;
+      box-shadow: 0 8px 32px rgba(249,202,36,0.3);
+    }
+
+    .hotel-photo {
+      width: 160px;
+      min-width: 160px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .card-body {
+      padding: 16px 18px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card-top {}
+    .super-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: linear-gradient(135deg, #f9ca24, #f0932b);
+      color: white;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-bottom: 6px;
+    }
+
+    .hotel-name { font-size: 17px; font-weight: 800; color: #1a1a1a; line-height: 1.2; }
+    .hotel-brand { font-size: 11px; color: #bbb; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+    .hotel-location { font-size: 12px; color: #888; margin-top: 2px; }
+    .hotel-price { font-size: 16px; font-weight: 800; color: #ee5a24; margin-top: 4px; }
+    .hotel-price span { font-size: 11px; font-weight: 400; color: #bbb; }
+    .stars { color: #f9ca24; font-size: 12px; margin-top: 2px; }
+
+    .vibes { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px; }
+    .vibe-tag {
+      background: #fff3ee;
+      border: 1px solid #ffd5c2;
+      color: #ee5a24;
+      font-size: 10px;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 20px;
+    }
+
+    .card-bottom { margin-top: 12px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+
+    .btn-chat {
+      background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding: 8px 16px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .btn-chat:hover { opacity: 0.9; }
+
+    .btn-delete {
+      background: none;
+      border: 1.5px solid #ffb3b3;
+      color: #ff6b6b;
+      border-radius: 20px;
+      padding: 6px 12px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      font-family: 'Poppins', sans-serif;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.15s;
+    }
+    .btn-delete:hover { background: #fff0f0; }
+
+    .match-pill {
+      background: #f5f5f5;
+      color: #555;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 5px 10px;
+      border-radius: 20px;
+      border: 1px solid #e8e8e8;
+    }
+
+    .empty-state {
+      max-width: 700px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      padding: 40px 32px;
+      text-align: center;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+    }
+    .empty-state i { font-size: 48px; color: #ee5a24; margin-bottom: 12px; display: block; }
+    .empty-state h2 { font-size: 20px; font-weight: 800; color: #1a1a1a; margin-bottom: 8px; }
+    .empty-state p { color: #888; font-size: 14px; margin-bottom: 20px; }
+    .btn-primary {
+      display: inline-block;
+      background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+      color: white;
+      border: none;
+      border-radius: 50px;
+      padding: 12px 28px;
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    @media (max-width: 480px) {
+      .hotel-card { flex-direction: column; }
+      .hotel-photo { width: 100%; height: 160px; min-width: unset; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <h1>🏨 Your Matches</h1>
+    <a href="{{ url_for('hotels') }}"><i class="fas fa-redo"></i> Keep Swiping</a>
+  </div>
+
+  {% if super_liked_hotels %}
+  <div class="section-label"><i class="fas fa-star" style="color:#f9ca24"></i> Super Liked ({{ super_liked_hotels|length }})</div>
+  <div class="hotel-list">
+    {% for hotel in super_liked_hotels %}
+    <div class="hotel-card super">
+      <img class="hotel-photo" src="{{ hotel.photo or '' }}" alt="{{ hotel.Hotel_Name }}">
+      <div class="card-body">
+        <div class="card-top">
+          <div class="super-badge"><i class="fas fa-star"></i> Super Like</div>
+          <div class="hotel-name">{{ hotel.Hotel_Name }}</div>
+          <div class="hotel-brand">{{ hotel.Brand }}</div>
+          <div class="hotel-location">📍 {{ hotel.Location }}</div>
+          <div class="hotel-price">${{ "%.0f"|format(hotel.Price_Per_Night) }} <span>/ night</span></div>
+          <div class="stars">{{ '★' * hotel.Rating|int }} ({{ hotel.Rating }})</div>
+          {% if hotel.vibes %}
+          <div class="vibes">
+            {% for v in hotel.vibes %}<span class="vibe-tag">{{ v }}</span>{% endfor %}
+          </div>
+          {% endif %}
+        </div>
+        <div class="card-bottom">
+          <a href="{{ url_for('chat', hotel_name=hotel.Hotel_Name) }}" class="btn-chat">
+            <i class="fas fa-comment"></i> Chat
+          </a>
+          {% if hotel.match_score %}<span class="match-pill">🔥 {{ hotel.match_score }}% Match</span>{% endif %}
+          <button class="btn-delete" onclick="deleteHotel(this, '{{ hotel.Hotel_Name }}', 'super')">
+            <i class="fas fa-times"></i> Remove
+          </button>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if liked_hotels %}
+  <div class="section-label" style="margin-top: {% if super_liked_hotels %}24px{% else %}0{% endif %}">
+    <i class="fas fa-heart" style="color:white"></i> Liked ({{ liked_hotels|length }})
+  </div>
+  <div class="hotel-list">
+    {% for hotel in liked_hotels %}
+    <div class="hotel-card">
+      <img class="hotel-photo" src="{{ hotel.photo or '' }}" alt="{{ hotel.Hotel_Name }}">
+      <div class="card-body">
+        <div class="card-top">
+          <div class="hotel-name">{{ hotel.Hotel_Name }}</div>
+          <div class="hotel-brand">{{ hotel.Brand }}</div>
+          <div class="hotel-location">📍 {{ hotel.Location }}</div>
+          <div class="hotel-price">${{ "%.0f"|format(hotel.Price_Per_Night) }} <span>/ night</span></div>
+          <div class="stars">{{ '★' * hotel.Rating|int }} ({{ hotel.Rating }})</div>
+          {% if hotel.vibes %}
+          <div class="vibes">
+            {% for v in hotel.vibes %}<span class="vibe-tag">{{ v }}</span>{% endfor %}
+          </div>
+          {% endif %}
+        </div>
+        <div class="card-bottom">
+          <a href="{{ url_for('chat', hotel_name=hotel.Hotel_Name) }}" class="btn-chat">
+            <i class="fas fa-comment"></i> Chat
+          </a>
+          {% if hotel.match_score %}<span class="match-pill">🔥 {{ hotel.match_score }}% Match</span>{% endif %}
+          <button class="btn-delete" onclick="deleteHotel(this, '{{ hotel.Hotel_Name }}', 'liked')">
+            <i class="fas fa-times"></i> Remove
+          </button>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if not liked_hotels and not super_liked_hotels %}
+  <div class="empty-state">
+    <i class="fas fa-heart-broken"></i>
+    <h2>No matches yet</h2>
+    <p>Start swiping to find your perfect hotel match!</p>
+    <a href="{{ url_for('hotels') }}" class="btn-primary">Start Swiping</a>
+  </div>
+  {% endif %}
+
+  <script>
+    function deleteHotel(btn, hotelName, listType) {
+      fetch('/delete_liked_hotel', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ hotel_name: hotelName, list_type: listType })
+      }).then(r => r.json()).then(data => {
+        if (data.status === 'ok') {
+          const card = btn.closest('.hotel-card');
+          card.style.transition = 'opacity 0.25s, transform 0.25s';
+          card.style.opacity = '0';
+          card.style.transform = 'translateX(30px)';
+          setTimeout(() => card.remove(), 260);
+        }
+      });
+    }
+  </script>
+</body>
+</html>

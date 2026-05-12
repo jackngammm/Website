@@ -1,0 +1,1001 @@
+Hotel_ID,Hotel_Name,Location,Brand,Rating,Number_of_Rooms,Amenities,Price_Per_Night,Customer_Satisfaction_Score,Year_Built,Last_Renovated,Distance_to_Airport,Pet_Friendly,Business_Center_Available,WiFi_Included,Restaurant_Available
+1,Hotel 1,Atlanta,The Ritz-Carlton,2.5,96,"Restaurant, Pool",290.68,1,1981,1996,9.27,True,True,True,False
+2,Hotel 2,San Jose,Residence Inn,4.8,61,"Restaurant, Pool",257.75,1,2011,2012,42.84,True,True,False,False
+3,Hotel 3,Indianapolis,Autograph Collection Hotels,3.9,111,"Pool, Gym, Free WiFi",319.77,1,1987,1990,1.65,False,True,False,True
+4,Hotel 4,Los Angeles,Luxury,3.4,129,"Pool, Gym, Free WiFi",398.75,8,2001,2007,26.08,True,False,True,True
+5,Hotel 5,Atlanta,Westin,1.6,265,"Gym, Free Parking",386.2,3,1985,2011,38.7,True,False,True,False
+6,Hotel 6,Phoenix,AC Hotels,1.6,132,"Restaurant, Pool",308.49,6,1991,1980,46.8,True,False,True,True
+7,Hotel 7,Detroit,Courtyard by Marriott,1.2,57,"Restaurant, Pool",428.96,3,2019,2007,45.55,True,False,False,True
+8,Hotel 8,El Paso,The Luxury Collection,4.5,272,"Business Center, Free WiFi",272.34,5,2015,2021,41.16,False,True,False,False
+9,Hotel 9,Mesa,The Luxury Collection,3.4,198,"Business Center, Free WiFi",458.69,7,1994,1986,44.52,True,True,True,False
+10,Hotel 10,Phoenix,SpringHill Suites,3.8,130,"Business Center, Free WiFi",128.51,2,2007,1981,10.76,False,True,False,False
+11,Hotel 11,Tucson,Longer Stays,1.1,264,"Restaurant, Pool",481.86,6,1997,2021,14.93,True,False,True,True
+12,Hotel 12,Phoenix,Moxy Hotels,4.9,278,"Business Center, Free WiFi",361.88,6,1981,2003,15.16,False,True,True,False
+13,Hotel 13,Portland,Le Méridien,4.3,167,"Pool, Gym, Free WiFi",252.03,3,1992,1983,19.48,False,True,False,False
+14,Hotel 14,Virginia Beach,Westin,1.8,257,"Gym, Free Parking",178.86,6,1994,1998,20.27,True,True,False,False
+15,Hotel 15,Detroit,TownePlace Suites,1.7,247,"Spa, Free Breakfast",291.67,10,1999,2005,27.68,False,True,False,False
+16,Hotel 16,Denver,AC Hotels,1.7,249,"Gym, Free Parking",177.82,10,2008,1990,8.83,True,False,False,False
+17,Hotel 17,Kansas City,Moxy Hotels,2.2,74,"Gym, Free Parking",166.53,5,2021,2019,34.87,False,True,True,True
+18,Hotel 18,New York,Fairfield by Marriott,3.1,259,"Pool, Gym, Free WiFi",346.94,2,2008,2022,9.21,False,True,True,False
+19,Hotel 19,Detroit,Delta Hotels,2.7,138,"Restaurant, Pool",309.23,9,1982,1990,16.21,False,False,True,False
+20,Hotel 20,Fresno,The Ritz-Carlton,2.2,61,"Gym, Free Parking",368.04,8,1998,1982,25.66,True,False,False,True
+21,Hotel 21,Virginia Beach,Marriott Hotels,3.4,192,"Pool, Gym, Free WiFi",471.84,3,1982,1991,40.03,False,False,True,False
+22,Hotel 22,Boston,Element by Westin,1.6,108,"Spa, Free Breakfast",312.9,8,1993,1982,37.23,True,True,False,False
+23,Hotel 23,Memphis,The Ritz-Carlton,2.2,203,"Pool, Gym, Free WiFi",332.37,9,2019,2021,32.63,False,True,False,True
+24,Hotel 24,San Antonio,Fairfield by Marriott,2.5,282,"Spa, Free Breakfast",135.85,3,1983,2006,8.63,False,True,False,False
+25,Hotel 25,Memphis,Marriott Vacation Club,2.8,158,"Spa, Free Breakfast",387.05,3,1990,1981,27.81,False,True,True,True
+26,Hotel 26,Milwaukee,Marriott Vacation Club,4.1,75,"Pool, Gym, Free WiFi",259.96,2,2010,1995,5.28,False,False,False,False
+27,Hotel 27,El Paso,St. Regis,1.8,96,"Pool, Gym, Free WiFi",490.69,8,2022,1981,19.49,False,True,False,True
+28,Hotel 28,Washington D.C.,Longer Stays,3.1,81,"Pool, Gym, Free WiFi",429.27,10,2011,2009,21.26,False,True,False,True
+29,Hotel 29,Charlotte,JW Marriott,3.4,59,"Restaurant, Pool",308.99,1,2006,1999,2.95,True,False,False,False
+30,Hotel 30,Houston,St. Regis,1.2,65,"Pool, Gym, Free WiFi",149.29,8,2009,2017,14.43,True,False,False,True
+31,Hotel 31,San Francisco,Longer Stays,3.4,248,"Spa, Free Breakfast",443.77,7,2022,2007,47.83,True,False,False,True
+32,Hotel 32,Sacramento,TownePlace Suites,1.7,194,"Spa, Free Breakfast",419.91,7,1981,2004,47.73,False,True,False,False
+33,Hotel 33,Seattle,Westin,1.3,200,"Spa, Free Breakfast",173.83,3,1988,2011,18.26,True,True,False,False
+34,Hotel 34,Boston,AC Hotels,4.8,75,"Pool, Gym, Free WiFi",218.11,1,2007,1989,3.11,False,True,False,True
+35,Hotel 35,Nashville,SpringHill Suites,4.9,262,"Spa, Free Breakfast",417.36,4,2010,2021,9.78,True,True,False,False
+36,Hotel 36,Seattle,Autograph Collection Hotels,4.2,135,"Restaurant, Pool",174.09,9,2013,2019,20.22,True,True,False,True
+37,Hotel 37,New York,Autograph Collection Hotels,2.2,299,"Business Center, Free WiFi",467.1,5,1994,2012,47.44,False,False,False,True
+38,Hotel 38,Indianapolis,The Luxury Collection,1.4,184,"Pool, Gym, Free WiFi",269.81,1,2004,1992,7.92,False,False,True,False
+39,Hotel 39,Phoenix,Moxy Hotels,3.7,63,"Spa, Free Breakfast",134.82,5,2015,2020,38.41,True,True,True,False
+40,Hotel 40,Milwaukee,Marriott Executive Apartments,2.8,128,"Restaurant, Pool",426.3,8,1987,2021,6.33,True,True,False,True
+41,Hotel 41,Albuquerque,Marriott Executive Apartments,1.5,166,"Gym, Free Parking",249.4,8,1988,2016,49.08,True,True,False,False
+42,Hotel 42,Houston,TownePlace Suites,3.0,56,"Restaurant, Pool",310.6,5,2016,1995,19.7,True,True,False,False
+43,Hotel 43,Detroit,Westin,1.1,186,"Restaurant, Pool",144.92,9,2018,2001,38.99,False,True,True,True
+44,Hotel 44,Washington D.C.,Courtyard by Marriott,4.6,164,"Pool, Gym, Free WiFi",101.03,1,2011,1999,17.79,True,False,True,True
+45,Hotel 45,San Francisco,Moxy Hotels,2.0,225,"Gym, Free Parking",355.19,4,1996,2022,31.76,False,False,True,True
+46,Hotel 46,San Diego,The Ritz-Carlton,3.7,121,"Restaurant, Pool",306.07,3,2014,2006,10.41,False,False,False,True
+47,Hotel 47,Nashville,Tribute Portfolio,2.2,291,"Pool, Gym, Free WiFi",337.42,2,2016,2020,8.16,True,True,False,True
+48,Hotel 48,San Jose,Sheraton,3.1,108,"Business Center, Free WiFi",417.5,8,1998,1995,46.97,False,True,False,True
+49,Hotel 49,Charlotte,Le Méridien,3.2,264,"Pool, Gym, Free WiFi",358.64,7,2008,2013,45.96,True,False,False,False
+50,Hotel 50,Mesa,Moxy Hotels,1.7,270,"Business Center, Free WiFi",169.91,9,1986,2011,44.49,False,False,True,True
+51,Hotel 51,San Antonio,Marriott Vacation Club,4.9,131,"Restaurant, Pool",244.31,2,2007,2005,31.65,False,True,False,False
+52,Hotel 52,Baltimore,Courtyard by Marriott,4.1,272,"Restaurant, Pool",462.36,4,1988,2004,40.61,True,False,True,False
+53,Hotel 53,Boston,Courtyard by Marriott,4.8,271,"Restaurant, Pool",407.98,6,2007,1981,4.38,False,False,True,True
+54,Hotel 54,Las Vegas,Autograph Collection Hotels,4.6,165,"Restaurant, Pool",322.65,3,1985,1991,17.4,False,True,False,False
+55,Hotel 55,Nashville,Premium,3.4,216,"Pool, Gym, Free WiFi",202.26,8,2008,2019,16.37,True,False,True,True
+56,Hotel 56,Atlanta,Residence Inn,4.7,276,"Pool, Gym, Free WiFi",220.82,3,1996,1988,32.15,False,False,True,False
+57,Hotel 57,Boston,Le Méridien,1.4,195,"Pool, Gym, Free WiFi",392.78,2,1995,1991,18.44,False,False,True,True
+58,Hotel 58,Mesa,Courtyard by Marriott,1.8,236,"Business Center, Free WiFi",440.47,3,2002,2005,8.28,True,True,True,True
+59,Hotel 59,Columbus,Longer Stays,1.2,283,"Gym, Free Parking",368.57,6,2010,1988,30.23,True,False,False,True
+60,Hotel 60,Tucson,Element by Westin,2.3,152,"Restaurant, Pool",423.81,2,1982,1989,40.9,False,False,False,True
+61,Hotel 61,Albuquerque,St. Regis,2.6,66,"Pool, Gym, Free WiFi",406.66,8,2000,2011,19.72,False,False,True,False
+62,Hotel 62,Atlanta,TownePlace Suites,2.1,63,"Pool, Gym, Free WiFi",159.88,1,2005,2013,7.48,False,True,False,False
+63,Hotel 63,Long Beach,Tribute Portfolio,4.3,208,"Spa, Free Breakfast",269.58,7,2015,1999,10.64,True,True,True,False
+64,Hotel 64,Mesa,Premium,2.4,201,"Gym, Free Parking",161.19,2,2021,2018,12.64,False,False,False,False
+65,Hotel 65,Detroit,Marriott Vacation Club,2.1,276,"Pool, Gym, Free WiFi",194.09,10,2016,1981,15.69,False,True,False,False
+66,Hotel 66,Philadelphia,Westin,3.2,157,"Gym, Free Parking",447.7,6,2001,1980,32.5,False,False,False,True
+67,Hotel 67,Charlotte,Westin,1.6,237,"Pool, Gym, Free WiFi",289.16,2,2021,2015,30.45,False,True,False,True
+68,Hotel 68,Fresno,The Luxury Collection,4.2,94,"Pool, Gym, Free WiFi",314.14,2,1991,2003,35.11,False,True,False,True
+69,Hotel 69,New York,Element by Westin,1.3,147,"Pool, Gym, Free WiFi",171.38,10,2021,2006,18.76,False,False,True,True
+70,Hotel 70,Baltimore,Element by Westin,4.9,180,"Restaurant, Pool",224.91,8,1992,1981,41.38,True,False,False,True
+71,Hotel 71,Chicago,Marriott Vacation Club,4.1,86,"Restaurant, Pool",192.1,2,1990,2010,11.0,True,False,True,False
+72,Hotel 72,Milwaukee,Marriott Vacation Club,1.8,220,"Business Center, Free WiFi",182.47,7,1995,1993,23.98,False,True,True,True
+73,Hotel 73,Atlanta,Select,1.0,217,"Business Center, Free WiFi",355.18,3,1987,1981,40.25,False,False,False,True
+74,Hotel 74,San Jose,St. Regis,4.3,267,"Gym, Free Parking",202.75,8,2019,2008,9.83,True,True,True,False
+75,Hotel 75,Oklahoma City,Autograph Collection Hotels,3.8,232,"Business Center, Free WiFi",352.81,7,2019,1994,6.38,True,True,False,False
+76,Hotel 76,Nashville,Boutique,3.9,264,"Spa, Free Breakfast",123.38,8,1981,1991,44.3,True,False,True,True
+77,Hotel 77,New York,Design Hotels,4.1,157,"Business Center, Free WiFi",156.71,7,2009,2016,17.8,False,True,True,True
+78,Hotel 78,Nashville,AC Hotels,1.3,88,"Spa, Free Breakfast",209.82,6,2009,2007,34.51,False,False,False,False
+79,Hotel 79,Mesa,Courtyard by Marriott,2.4,64,"Spa, Free Breakfast",338.82,7,1991,1999,2.24,False,True,False,True
+80,Hotel 80,Detroit,Premium,1.5,169,"Business Center, Free WiFi",370.34,5,1989,2018,34.81,False,False,False,True
+81,Hotel 81,Baltimore,Marriott Executive Apartments,4.5,290,"Restaurant, Pool",277.09,7,1990,2003,16.49,True,True,False,True
+82,Hotel 82,San Diego,Longer Stays,3.5,53,"Pool, Gym, Free WiFi",278.32,1,1994,2000,3.73,True,True,True,False
+83,Hotel 83,Washington D.C.,JW Marriott,2.3,142,"Gym, Free Parking",389.81,1,1995,1989,30.88,True,False,False,True
+84,Hotel 84,Memphis,Autograph Collection Hotels,1.3,263,"Restaurant, Pool",106.33,9,1996,1993,12.8,True,True,True,True
+85,Hotel 85,Louisville,JW Marriott,2.2,202,"Pool, Gym, Free WiFi",236.44,5,2005,2016,19.95,False,False,True,False
+86,Hotel 86,Indianapolis,Element by Westin,2.3,190,"Gym, Free Parking",427.48,5,1981,1997,4.95,False,True,True,False
+87,Hotel 87,Louisville,Premium,3.9,259,"Business Center, Free WiFi",341.29,3,1991,2003,8.21,True,True,True,False
+88,Hotel 88,Fresno,Fairfield by Marriott,3.6,210,"Restaurant, Pool",234.89,5,2005,1993,15.6,True,True,True,True
+89,Hotel 89,San Francisco,Residence Inn,4.5,65,"Business Center, Free WiFi",462.21,3,2002,2013,5.4,True,False,True,False
+90,Hotel 90,Austin,Sheraton,2.9,286,"Business Center, Free WiFi",409.05,9,1997,1991,45.63,True,False,False,True
+91,Hotel 91,Los Angeles,TownePlace Suites,1.5,219,"Restaurant, Pool",205.96,9,2011,2001,1.3,True,False,True,False
+92,Hotel 92,Columbus,Courtyard by Marriott,3.9,157,"Gym, Free Parking",358.12,6,2017,1985,24.71,False,False,True,True
+93,Hotel 93,Albuquerque,Premium,4.0,175,"Restaurant, Pool",338.3,1,1982,2015,7.04,False,False,True,False
+94,Hotel 94,Oklahoma City,The Ritz-Carlton,3.2,243,"Spa, Free Breakfast",260.48,7,2017,2015,16.08,True,True,False,True
+95,Hotel 95,Dallas,Premium,4.1,104,"Gym, Free Parking",246.78,7,1982,2001,46.38,True,True,False,True
+96,Hotel 96,Seattle,Marriott Hotels,3.0,276,"Restaurant, Pool",237.42,10,2009,1993,8.92,True,False,True,False
+97,Hotel 97,Long Beach,TownePlace Suites,3.1,219,"Spa, Free Breakfast",346.86,10,1980,1995,48.33,False,True,False,False
+98,Hotel 98,Las Vegas,Residence Inn,2.7,83,"Business Center, Free WiFi",276.96,4,2009,2015,11.08,False,True,True,True
+99,Hotel 99,Kansas City,Tribute Portfolio,1.1,207,"Gym, Free Parking",432.75,8,2011,2004,37.34,False,True,False,False
+100,Hotel 100,Philadelphia,Gaylord Hotels,1.4,296,"Gym, Free Parking",367.84,6,2007,2011,27.79,True,True,True,True
+101,Hotel 101,Fresno,Luxury,1.1,62,"Pool, Gym, Free WiFi",127.97,4,2000,2012,44.34,False,False,False,False
+102,Hotel 102,Fresno,Moxy Hotels,3.5,190,"Pool, Gym, Free WiFi",356.07,4,1992,2015,28.15,True,True,False,False
+103,Hotel 103,Sacramento,Sheraton,2.3,67,"Pool, Gym, Free WiFi",208.46,2,2006,1999,27.19,False,False,False,True
+104,Hotel 104,Chicago,Marriott Hotels,3.0,209,"Restaurant, Pool",337.12,2,2015,1997,10.58,False,False,True,False
+105,Hotel 105,Nashville,The Ritz-Carlton,4.6,145,"Pool, Gym, Free WiFi",372.05,4,1986,2017,9.15,False,True,True,False
+106,Hotel 106,Detroit,Boutique,2.0,276,"Spa, Free Breakfast",192.33,5,2001,1982,45.91,True,False,True,True
+107,Hotel 107,Atlanta,The Ritz-Carlton,2.6,172,"Business Center, Free WiFi",282.74,8,1989,2002,17.06,True,True,False,True
+108,Hotel 108,Washington D.C.,St. Regis,4.0,88,"Restaurant, Pool",176.13,6,2018,2011,19.23,False,True,False,False
+109,Hotel 109,Boston,Element by Westin,1.9,95,"Pool, Gym, Free WiFi",120.94,4,1994,1995,38.23,True,True,True,True
+110,Hotel 110,New York,Element by Westin,1.3,293,"Restaurant, Pool",251.39,7,1994,1984,17.6,True,False,False,False
+111,Hotel 111,Albuquerque,Luxury,2.2,78,"Pool, Gym, Free WiFi",245.18,8,1983,1983,47.65,True,False,True,False
+112,Hotel 112,Washington D.C.,Premium,1.6,239,"Spa, Free Breakfast",498.19,2,2011,2000,37.16,True,False,True,True
+113,Hotel 113,Milwaukee,Le Méridien,4.7,290,"Restaurant, Pool",278.54,7,2002,2019,30.27,True,True,True,True
+114,Hotel 114,Columbus,Premium,4.2,270,"Spa, Free Breakfast",233.43,2,1985,1993,44.16,True,True,True,True
+115,Hotel 115,Fresno,Moxy Hotels,3.5,111,"Pool, Gym, Free WiFi",332.19,2,2003,2018,3.43,True,True,False,True
+116,Hotel 116,El Paso,Longer Stays,4.5,294,"Spa, Free Breakfast",135.51,8,1999,2010,13.6,False,False,False,True
+117,Hotel 117,Albuquerque,Premium,4.2,285,"Pool, Gym, Free WiFi",484.67,2,2016,1993,23.79,True,True,False,True
+118,Hotel 118,Jacksonville,Select,1.7,234,"Spa, Free Breakfast",353.98,9,1999,1985,12.12,True,True,True,False
+119,Hotel 119,Boston,Marriott Vacation Club,4.6,65,"Spa, Free Breakfast",401.94,1,1991,1991,37.45,False,False,False,False
+120,Hotel 120,Fresno,Residence Inn,3.2,233,"Gym, Free Parking",168.19,9,2012,1995,46.04,False,False,True,True
+121,Hotel 121,Mesa,St. Regis,4.2,285,"Restaurant, Pool",263.79,1,2007,1996,21.76,False,False,True,False
+122,Hotel 122,Los Angeles,The Ritz-Carlton,4.6,288,"Gym, Free Parking",269.08,10,1987,2002,17.76,False,True,True,False
+123,Hotel 123,Houston,Residence Inn,2.3,170,"Pool, Gym, Free WiFi",428.72,10,1980,1993,48.12,True,True,True,False
+124,Hotel 124,Tucson,St. Regis,1.4,59,"Pool, Gym, Free WiFi",100.49,2,2016,1986,22.8,False,True,True,False
+125,Hotel 125,San Jose,Le Méridien,1.9,207,"Restaurant, Pool",220.34,6,2001,2011,24.96,False,False,True,True
+126,Hotel 126,Virginia Beach,Marriott Executive Apartments,2.7,202,"Business Center, Free WiFi",492.49,6,1985,1994,18.23,True,False,False,False
+127,Hotel 127,Mesa,The Luxury Collection,4.3,152,"Pool, Gym, Free WiFi",289.95,1,2000,1996,45.57,True,False,False,False
+128,Hotel 128,Chicago,Tribute Portfolio,4.4,133,"Pool, Gym, Free WiFi",253.01,7,2011,2020,28.88,True,False,False,True
+129,Hotel 129,Oklahoma City,Le Méridien,1.0,182,"Spa, Free Breakfast",147.93,8,2014,2013,38.35,False,True,False,True
+130,Hotel 130,Denver,SpringHill Suites,3.0,114,"Pool, Gym, Free WiFi",489.67,2,1994,1984,40.78,True,True,True,True
+131,Hotel 131,Tucson,Marriott Hotels,2.7,271,"Spa, Free Breakfast",108.01,8,1984,2006,17.75,False,True,True,True
+132,Hotel 132,Virginia Beach,JW Marriott,1.9,226,"Business Center, Free WiFi",394.87,9,1985,2002,22.25,True,True,False,False
+133,Hotel 133,Louisville,Tribute Portfolio,1.5,52,"Spa, Free Breakfast",407.44,6,2004,2019,42.58,True,True,False,True
+134,Hotel 134,Las Vegas,Residence Inn,2.4,222,"Restaurant, Pool",197.46,5,2019,1993,18.8,False,True,False,False
+135,Hotel 135,Oklahoma City,Premium,4.8,191,"Business Center, Free WiFi",368.62,9,2008,1994,39.9,True,True,False,False
+136,Hotel 136,Portland,Select,2.3,169,"Business Center, Free WiFi",137.17,9,1986,2022,47.11,True,True,False,True
+137,Hotel 137,Albuquerque,Select,3.1,207,"Spa, Free Breakfast",202.82,1,2019,2012,31.54,True,False,False,True
+138,Hotel 138,Long Beach,Marriott Hotels,3.8,291,"Gym, Free Parking",415.16,3,1992,2010,37.34,True,False,False,True
+139,Hotel 139,Phoenix,Design Hotels,2.5,117,"Pool, Gym, Free WiFi",445.87,9,2017,2014,40.45,True,True,False,True
+140,Hotel 140,Boston,Tribute Portfolio,4.9,195,"Pool, Gym, Free WiFi",343.39,2,1997,1996,42.41,False,False,True,True
+141,Hotel 141,Detroit,Residence Inn,4.8,239,"Spa, Free Breakfast",302.74,4,1981,2007,20.36,False,True,True,True
+142,Hotel 142,San Jose,The Ritz-Carlton,2.0,86,"Gym, Free Parking",163.72,4,1987,1998,3.51,True,True,True,False
+143,Hotel 143,Charlotte,Westin,3.0,202,"Spa, Free Breakfast",125.24,2,1990,2002,20.69,False,False,True,False
+144,Hotel 144,Philadelphia,The Luxury Collection,2.2,225,"Gym, Free Parking",147.06,3,2012,2011,34.01,False,True,False,False
+145,Hotel 145,San Diego,The Luxury Collection,2.1,242,"Restaurant, Pool",190.94,3,2017,2019,23.07,False,True,True,False
+146,Hotel 146,Baltimore,Element by Westin,1.1,230,"Gym, Free Parking",236.67,1,2006,1992,37.7,True,True,False,True
+147,Hotel 147,Dallas,JW Marriott,3.4,287,"Business Center, Free WiFi",252.36,6,1999,1999,18.49,True,True,True,True
+148,Hotel 148,Philadelphia,Tribute Portfolio,3.0,256,"Restaurant, Pool",238.53,8,1991,2014,32.1,True,True,False,False
+149,Hotel 149,Indianapolis,Design Hotels,1.2,122,"Pool, Gym, Free WiFi",195.62,3,2022,1984,10.13,False,True,False,False
+150,Hotel 150,Philadelphia,Tribute Portfolio,2.1,192,"Gym, Free Parking",303.89,5,2010,1988,37.72,False,True,True,False
+151,Hotel 151,Las Vegas,Marriott Hotels,4.6,98,"Pool, Gym, Free WiFi",430.11,1,2006,2008,27.74,True,False,True,True
+152,Hotel 152,San Antonio,Moxy Hotels,2.0,170,"Restaurant, Pool",211.88,10,2011,1985,11.0,True,False,False,True
+153,Hotel 153,Memphis,Sheraton,1.6,137,"Gym, Free Parking",476.95,7,1989,2004,15.3,False,True,False,True
+154,Hotel 154,Chicago,SpringHill Suites,3.0,245,"Gym, Free Parking",449.33,10,1982,2010,37.68,False,False,False,False
+155,Hotel 155,Sacramento,W Hotels,4.9,189,"Pool, Gym, Free WiFi",164.71,1,2006,2001,24.65,True,True,True,False
+156,Hotel 156,Jacksonville,SpringHill Suites,2.0,236,"Restaurant, Pool",414.51,9,2014,1981,11.59,False,True,True,True
+157,Hotel 157,Atlanta,Luxury,3.7,299,"Restaurant, Pool",329.83,8,2010,1984,48.4,False,True,False,True
+158,Hotel 158,Fort Worth,Autograph Collection Hotels,4.0,86,"Gym, Free Parking",326.63,7,1994,2006,36.04,False,True,True,False
+159,Hotel 159,Fort Worth,The Luxury Collection,2.0,110,"Restaurant, Pool",256.42,10,1995,2004,47.9,False,False,False,False
+160,Hotel 160,Los Angeles,TownePlace Suites,3.9,278,"Pool, Gym, Free WiFi",300.46,7,1992,1987,21.93,False,False,True,True
+161,Hotel 161,Oklahoma City,Residence Inn,2.5,220,"Spa, Free Breakfast",258.87,5,2014,1980,24.28,False,False,True,False
+162,Hotel 162,Oklahoma City,Marriott Hotels,3.5,173,"Business Center, Free WiFi",315.89,5,1990,1999,45.0,False,False,True,True
+163,Hotel 163,Nashville,AC Hotels,3.5,247,"Restaurant, Pool",351.18,5,2000,2002,26.73,True,True,True,True
+164,Hotel 164,New York,Design Hotels,3.1,88,"Gym, Free Parking",369.72,1,1990,2011,35.66,True,False,True,False
+165,Hotel 165,Atlanta,Fairfield by Marriott,1.4,233,"Restaurant, Pool",312.99,8,2009,1990,13.36,False,True,False,False
+166,Hotel 166,Louisville,Longer Stays,4.3,112,"Spa, Free Breakfast",388.57,1,2014,2018,22.89,False,True,False,False
+167,Hotel 167,Houston,Element by Westin,2.3,95,"Pool, Gym, Free WiFi",156.51,4,2001,2003,7.05,False,False,True,True
+168,Hotel 168,Sacramento,TownePlace Suites,1.7,137,"Pool, Gym, Free WiFi",184.79,9,2017,1990,11.09,True,True,False,False
+169,Hotel 169,Mesa,St. Regis,1.2,60,"Gym, Free Parking",427.49,9,2010,2008,1.05,True,False,False,False
+170,Hotel 170,Sacramento,W Hotels,3.4,111,"Restaurant, Pool",229.01,5,1993,2005,2.92,False,False,True,True
+171,Hotel 171,Seattle,Marriott Executive Apartments,3.7,126,"Pool, Gym, Free WiFi",109.16,4,2003,1995,48.89,True,False,False,True
+172,Hotel 172,Denver,TownePlace Suites,1.1,275,"Gym, Free Parking",161.52,3,2011,2014,12.88,False,False,True,False
+173,Hotel 173,Las Vegas,Residence Inn,3.0,202,"Spa, Free Breakfast",189.45,3,2015,1999,33.5,False,False,False,True
+174,Hotel 174,Nashville,Marriott Vacation Club,1.9,248,"Gym, Free Parking",482.93,5,2011,1982,42.12,False,True,False,True
+175,Hotel 175,Houston,TownePlace Suites,3.6,101,"Business Center, Free WiFi",329.22,10,1994,1980,27.98,False,False,False,True
+176,Hotel 176,Atlanta,Delta Hotels,1.7,53,"Gym, Free Parking",473.09,1,2022,1980,8.5,False,False,False,False
+177,Hotel 177,Kansas City,The Ritz-Carlton,3.8,108,"Gym, Free Parking",330.07,5,2014,1996,36.68,False,True,False,False
+178,Hotel 178,Sacramento,SpringHill Suites,2.5,121,"Pool, Gym, Free WiFi",291.74,6,1982,1981,30.41,False,False,False,True
+179,Hotel 179,Austin,Autograph Collection Hotels,4.7,197,"Pool, Gym, Free WiFi",225.49,7,1995,2008,36.83,True,False,False,True
+180,Hotel 180,Chicago,Le Méridien,1.6,142,"Business Center, Free WiFi",342.55,9,1984,1999,38.72,False,True,True,True
+181,Hotel 181,Sacramento,AC Hotels,2.4,112,"Gym, Free Parking",155.68,3,2000,1985,48.8,True,True,True,False
+182,Hotel 182,Las Vegas,Marriott Vacation Club,1.5,103,"Spa, Free Breakfast",459.3,2,1989,1987,29.1,False,False,True,True
+183,Hotel 183,Louisville,Residence Inn,4.7,166,"Business Center, Free WiFi",431.73,3,1998,2008,17.74,False,True,True,True
+184,Hotel 184,Austin,Marriott Executive Apartments,4.5,292,"Pool, Gym, Free WiFi",227.01,9,2004,2012,32.77,True,False,False,False
+185,Hotel 185,Charlotte,Sheraton,2.0,286,"Spa, Free Breakfast",481.12,7,1983,1982,4.35,True,True,False,True
+186,Hotel 186,Columbus,TownePlace Suites,3.6,159,"Restaurant, Pool",430.08,9,2008,2014,44.97,False,False,False,False
+187,Hotel 187,Indianapolis,AC Hotels,4.3,123,"Pool, Gym, Free WiFi",366.52,2,1998,1984,6.85,True,False,True,False
+188,Hotel 188,Nashville,Le Méridien,3.2,156,"Business Center, Free WiFi",148.7,5,2022,2006,17.06,False,False,True,False
+189,Hotel 189,Los Angeles,Sheraton,3.1,275,"Business Center, Free WiFi",291.29,4,1981,1991,40.97,False,True,True,True
+190,Hotel 190,Seattle,Marriott Vacation Club,2.0,106,"Business Center, Free WiFi",302.44,2,1989,1999,30.27,True,False,False,True
+191,Hotel 191,Detroit,W Hotels,1.4,267,"Restaurant, Pool",193.02,9,2022,1999,20.29,True,True,True,False
+192,Hotel 192,Louisville,St. Regis,4.6,218,"Gym, Free Parking",131.99,9,2004,1988,24.2,True,False,False,True
+193,Hotel 193,San Antonio,TownePlace Suites,4.6,290,"Spa, Free Breakfast",410.69,6,1999,2018,42.87,True,False,True,False
+194,Hotel 194,Virginia Beach,Courtyard by Marriott,3.5,299,"Restaurant, Pool",148.81,6,1998,1983,17.66,False,False,False,True
+195,Hotel 195,Virginia Beach,Marriott Vacation Club,2.4,52,"Pool, Gym, Free WiFi",337.72,8,2002,1998,43.61,True,False,True,False
+196,Hotel 196,Kansas City,Marriott Vacation Club,2.4,169,"Pool, Gym, Free WiFi",474.58,6,2003,2017,5.32,True,False,False,False
+197,Hotel 197,Kansas City,Gaylord Hotels,3.9,55,"Business Center, Free WiFi",450.44,1,1990,2006,39.06,True,True,True,True
+198,Hotel 198,San Francisco,Autograph Collection Hotels,4.6,54,"Pool, Gym, Free WiFi",211.1,4,2013,2022,42.53,True,True,True,True
+199,Hotel 199,San Jose,Residence Inn,4.5,54,"Restaurant, Pool",440.58,7,2007,1992,9.91,True,True,False,True
+200,Hotel 200,Phoenix,TownePlace Suites,4.1,103,"Spa, Free Breakfast",100.13,2,1984,1992,22.09,False,False,False,True
+201,Hotel 201,Milwaukee,TownePlace Suites,3.6,96,"Business Center, Free WiFi",107.08,9,1984,2001,9.11,False,False,True,False
+202,Hotel 202,Oklahoma City,TownePlace Suites,1.3,264,"Gym, Free Parking",341.02,8,2000,2007,35.62,True,True,False,False
+203,Hotel 203,Mesa,Westin,1.6,226,"Spa, Free Breakfast",245.92,8,1991,2001,27.23,True,False,True,True
+204,Hotel 204,El Paso,St. Regis,4.6,58,"Pool, Gym, Free WiFi",254.58,7,1983,2022,32.13,False,False,False,True
+205,Hotel 205,Jacksonville,Longer Stays,3.4,148,"Spa, Free Breakfast",325.78,4,2021,1998,10.63,True,False,True,False
+206,Hotel 206,El Paso,Gaylord Hotels,1.0,69,"Restaurant, Pool",176.71,2,1999,1987,11.38,False,True,False,True
+207,Hotel 207,Fort Worth,Le Méridien,1.4,171,"Pool, Gym, Free WiFi",184.7,3,2017,1987,3.03,False,True,True,True
+208,Hotel 208,Chicago,Sheraton,3.7,290,"Business Center, Free WiFi",293.84,6,2004,2021,16.78,True,True,True,True
+209,Hotel 209,Las Vegas,Luxury,1.0,110,"Restaurant, Pool",401.7,5,1993,2005,28.43,False,True,True,True
+210,Hotel 210,San Diego,Select,1.6,172,"Restaurant, Pool",347.8,8,1990,2005,43.04,True,True,False,False
+211,Hotel 211,Houston,JW Marriott,3.2,283,"Restaurant, Pool",218.94,6,2011,2002,33.68,True,False,True,False
+212,Hotel 212,Columbus,Marriott Vacation Club,3.8,212,"Spa, Free Breakfast",272.13,6,1990,2022,22.33,False,False,False,True
+213,Hotel 213,Kansas City,SpringHill Suites,3.6,227,"Pool, Gym, Free WiFi",168.27,1,1997,1992,47.7,False,False,False,False
+214,Hotel 214,Denver,Westin,1.9,131,"Restaurant, Pool",129.85,4,2006,2007,36.24,True,False,False,True
+215,Hotel 215,Portland,SpringHill Suites,3.8,111,"Spa, Free Breakfast",413.08,5,1997,1988,46.58,False,True,True,True
+216,Hotel 216,San Francisco,Design Hotels,1.9,194,"Gym, Free Parking",206.15,3,2002,1999,26.85,True,True,False,True
+217,Hotel 217,New York,Luxury,2.3,265,"Spa, Free Breakfast",171.11,9,1990,1998,13.69,False,False,False,False
+218,Hotel 218,San Antonio,Residence Inn,4.0,52,"Business Center, Free WiFi",376.65,1,2000,2018,3.59,False,True,False,False
+219,Hotel 219,Denver,Fairfield by Marriott,3.6,209,"Gym, Free Parking",347.22,6,1984,1991,36.58,True,False,True,False
+220,Hotel 220,Seattle,Premium,4.4,276,"Restaurant, Pool",353.28,6,2002,1994,6.94,True,False,False,False
+221,Hotel 221,Detroit,Sheraton,3.6,279,"Restaurant, Pool",191.56,10,2020,2010,15.84,True,False,False,False
+222,Hotel 222,El Paso,Sheraton,3.3,62,"Gym, Free Parking",193.06,5,2004,1993,27.09,False,False,False,True
+223,Hotel 223,Austin,Autograph Collection Hotels,1.4,169,"Restaurant, Pool",188.32,5,2020,1990,28.66,True,True,False,True
+224,Hotel 224,Houston,Marriott Vacation Club,2.5,174,"Restaurant, Pool",169.5,10,1989,2005,30.43,True,False,True,False
+225,Hotel 225,Long Beach,Marriott Executive Apartments,2.1,288,"Spa, Free Breakfast",362.29,5,2001,2021,9.15,False,True,True,False
+226,Hotel 226,Houston,W Hotels,2.0,138,"Gym, Free Parking",439.21,6,1998,2006,19.61,False,False,False,False
+227,Hotel 227,Portland,Sheraton,4.9,122,"Gym, Free Parking",389.73,8,1980,1990,31.24,True,False,False,True
+228,Hotel 228,Memphis,Element by Westin,2.6,117,"Gym, Free Parking",416.84,2,1986,2017,48.52,True,False,False,False
+229,Hotel 229,Columbus,Element by Westin,4.6,191,"Business Center, Free WiFi",261.92,6,1983,2013,36.65,True,False,False,True
+230,Hotel 230,Portland,Design Hotels,3.5,150,"Gym, Free Parking",361.63,1,1980,2022,46.21,True,True,True,True
+231,Hotel 231,Tucson,Delta Hotels,4.2,147,"Pool, Gym, Free WiFi",241.69,4,1994,1998,38.35,False,False,True,False
+232,Hotel 232,Charlotte,Delta Hotels,3.0,60,"Spa, Free Breakfast",310.2,10,2019,1985,29.99,False,True,True,True
+233,Hotel 233,Kansas City,Delta Hotels,3.3,154,"Restaurant, Pool",292.65,3,1991,2017,10.41,True,False,True,True
+234,Hotel 234,Detroit,Delta Hotels,3.0,233,"Restaurant, Pool",170.75,9,2001,2021,33.67,True,False,False,False
+235,Hotel 235,Long Beach,Courtyard by Marriott,1.8,116,"Restaurant, Pool",254.83,3,2001,2007,31.55,True,False,False,True
+236,Hotel 236,Denver,Westin,3.9,172,"Business Center, Free WiFi",485.53,6,1996,1980,30.52,False,True,True,False
+237,Hotel 237,Dallas,Select,2.1,269,"Spa, Free Breakfast",199.43,1,2008,2014,25.0,True,False,True,True
+238,Hotel 238,Charlotte,Element by Westin,1.1,78,"Business Center, Free WiFi",153.52,6,1993,2019,26.9,True,False,False,False
+239,Hotel 239,Philadelphia,SpringHill Suites,3.6,186,"Spa, Free Breakfast",267.43,4,1999,1987,17.39,False,False,False,False
+240,Hotel 240,Charlotte,Delta Hotels,1.7,244,"Restaurant, Pool",416.14,8,2012,1986,26.45,False,False,False,True
+241,Hotel 241,San Jose,Residence Inn,4.8,202,"Restaurant, Pool",332.86,9,2022,1990,10.68,True,False,False,False
+242,Hotel 242,Denver,Marriott Hotels,4.8,275,"Restaurant, Pool",372.39,4,1994,2018,40.45,True,True,False,True
+243,Hotel 243,San Antonio,Select,4.7,125,"Restaurant, Pool",175.88,10,1991,1983,10.1,False,True,True,True
+244,Hotel 244,Fresno,Fairfield by Marriott,2.5,219,"Gym, Free Parking",347.58,10,2019,2004,5.16,True,False,True,False
+245,Hotel 245,Las Vegas,Marriott Hotels,1.1,58,"Gym, Free Parking",229.4,6,1999,1991,22.38,True,False,False,True
+246,Hotel 246,Dallas,Le Méridien,4.7,256,"Business Center, Free WiFi",433.72,1,2009,2005,33.26,False,True,False,False
+247,Hotel 247,Indianapolis,Marriott Hotels,2.7,89,"Spa, Free Breakfast",351.72,4,2017,2017,22.45,False,False,True,True
+248,Hotel 248,Atlanta,Le Méridien,4.9,74,"Gym, Free Parking",179.54,7,1982,1991,14.56,False,True,False,True
+249,Hotel 249,Los Angeles,Longer Stays,4.9,54,"Gym, Free Parking",125.85,1,2007,2022,28.35,True,False,True,False
+250,Hotel 250,Jacksonville,Select,4.4,188,"Pool, Gym, Free WiFi",117.05,8,2005,2016,18.0,False,False,True,True
+251,Hotel 251,Baltimore,TownePlace Suites,2.2,236,"Restaurant, Pool",248.56,10,2009,2003,46.71,False,True,True,True
+252,Hotel 252,San Jose,Gaylord Hotels,2.5,275,"Spa, Free Breakfast",206.34,6,1992,1995,46.21,True,False,True,True
+253,Hotel 253,Denver,Residence Inn,4.4,265,"Gym, Free Parking",358.44,5,1992,1992,25.62,True,True,False,True
+254,Hotel 254,Austin,Premium,2.3,173,"Gym, Free Parking",299.73,10,1981,2004,17.07,False,True,False,True
+255,Hotel 255,Portland,Gaylord Hotels,1.7,256,"Restaurant, Pool",206.41,9,2016,1983,37.12,False,True,True,True
+256,Hotel 256,Milwaukee,AC Hotels,3.2,87,"Business Center, Free WiFi",159.7,2,2017,1990,2.8,True,False,False,True
+257,Hotel 257,Phoenix,Marriott Hotels,4.7,121,"Restaurant, Pool",150.88,5,1981,2011,24.26,True,True,False,True
+258,Hotel 258,Portland,Fairfield by Marriott,3.8,182,"Pool, Gym, Free WiFi",445.86,6,2015,1986,17.48,False,True,False,False
+259,Hotel 259,Sacramento,SpringHill Suites,3.3,225,"Business Center, Free WiFi",197.39,7,2005,1990,46.11,False,False,False,True
+260,Hotel 260,Baltimore,Autograph Collection Hotels,1.4,139,"Gym, Free Parking",360.68,5,1990,2007,1.59,True,False,True,True
+261,Hotel 261,Atlanta,Marriott Executive Apartments,3.5,195,"Spa, Free Breakfast",424.27,9,1987,2020,28.09,False,False,False,False
+262,Hotel 262,San Diego,TownePlace Suites,5.0,247,"Pool, Gym, Free WiFi",345.63,1,2019,2002,37.29,True,False,True,False
+263,Hotel 263,El Paso,Select,1.6,86,"Restaurant, Pool",443.83,7,2022,2002,24.77,False,False,True,False
+264,Hotel 264,Fresno,Tribute Portfolio,3.1,109,"Spa, Free Breakfast",256.96,10,2001,2007,5.18,True,False,False,True
+265,Hotel 265,San Jose,Autograph Collection Hotels,4.5,225,"Business Center, Free WiFi",482.49,7,1999,2022,48.65,True,True,True,False
+266,Hotel 266,Indianapolis,The Ritz-Carlton,4.0,254,"Business Center, Free WiFi",153.26,4,1987,2005,26.38,False,False,False,False
+267,Hotel 267,San Diego,Marriott Hotels,3.8,77,"Restaurant, Pool",140.86,9,2008,2004,31.1,False,True,False,True
+268,Hotel 268,San Jose,Boutique,3.8,246,"Gym, Free Parking",363.48,5,2019,2008,12.59,True,False,True,True
+269,Hotel 269,Atlanta,Courtyard by Marriott,2.4,254,"Spa, Free Breakfast",477.13,4,2005,1998,24.69,False,True,False,False
+270,Hotel 270,Albuquerque,Residence Inn,2.2,130,"Spa, Free Breakfast",423.55,7,2009,2012,22.03,False,True,True,False
+271,Hotel 271,Baltimore,St. Regis,4.2,163,"Restaurant, Pool",130.57,4,1996,2015,4.67,False,False,True,True
+272,Hotel 272,Columbus,Element by Westin,4.2,89,"Gym, Free Parking",211.75,3,1999,1993,6.2,True,False,False,True
+273,Hotel 273,Charlotte,Longer Stays,4.5,94,"Business Center, Free WiFi",472.13,9,1995,1993,42.04,False,True,False,True
+274,Hotel 274,New York,Le Méridien,4.7,273,"Restaurant, Pool",201.22,8,2022,2014,12.75,False,False,False,True
+275,Hotel 275,Austin,Boutique,3.0,111,"Gym, Free Parking",412.47,1,1986,2009,10.55,True,False,True,True
+276,Hotel 276,Los Angeles,Marriott Hotels,3.0,142,"Gym, Free Parking",430.05,7,1995,2007,25.74,False,True,False,False
+277,Hotel 277,Charlotte,Residence Inn,4.2,164,"Spa, Free Breakfast",298.18,9,2006,1996,38.67,False,True,True,True
+278,Hotel 278,San Diego,Design Hotels,3.6,235,"Pool, Gym, Free WiFi",254.54,8,2002,1982,4.04,True,True,True,True
+279,Hotel 279,Kansas City,TownePlace Suites,3.8,116,"Gym, Free Parking",280.05,8,2003,1995,29.26,True,False,False,True
+280,Hotel 280,Oklahoma City,W Hotels,4.2,105,"Gym, Free Parking",190.79,6,1988,2009,6.84,False,False,False,True
+281,Hotel 281,Boston,St. Regis,4.6,89,"Pool, Gym, Free WiFi",455.76,4,2014,2008,2.79,False,False,False,True
+282,Hotel 282,Charlotte,Autograph Collection Hotels,2.4,147,"Business Center, Free WiFi",280.25,8,1999,1994,3.58,True,False,True,False
+283,Hotel 283,Houston,Gaylord Hotels,2.5,89,"Gym, Free Parking",452.98,3,2016,2004,41.87,True,True,False,True
+284,Hotel 284,Baltimore,Le Méridien,1.4,140,"Gym, Free Parking",142.28,9,2021,2017,6.78,False,False,True,False
+285,Hotel 285,Los Angeles,SpringHill Suites,3.3,254,"Business Center, Free WiFi",495.31,2,1996,2021,3.21,False,True,False,True
+286,Hotel 286,Detroit,AC Hotels,1.1,286,"Spa, Free Breakfast",277.31,2,2010,2017,22.46,False,False,False,False
+287,Hotel 287,Milwaukee,Design Hotels,2.9,82,"Gym, Free Parking",119.13,7,1987,2002,42.36,True,False,True,False
+288,Hotel 288,Fresno,Autograph Collection Hotels,3.2,55,"Spa, Free Breakfast",115.21,10,1994,2004,13.86,False,True,True,True
+289,Hotel 289,Indianapolis,Marriott Vacation Club,2.1,265,"Business Center, Free WiFi",398.48,4,2010,2021,21.66,True,False,False,True
+290,Hotel 290,Indianapolis,Marriott Vacation Club,3.4,196,"Spa, Free Breakfast",363.61,10,2009,1986,2.96,True,False,False,True
+291,Hotel 291,Atlanta,JW Marriott,1.1,129,"Business Center, Free WiFi",420.85,8,1999,2001,23.0,True,True,False,True
+292,Hotel 292,Boston,AC Hotels,1.1,217,"Restaurant, Pool",142.15,9,2018,1996,29.3,False,False,False,True
+293,Hotel 293,Washington D.C.,Tribute Portfolio,4.3,141,"Spa, Free Breakfast",114.23,7,1991,1997,28.97,False,True,False,False
+294,Hotel 294,Louisville,Courtyard by Marriott,2.4,146,"Gym, Free Parking",303.43,5,1996,2020,17.29,False,True,True,True
+295,Hotel 295,San Francisco,Westin,1.5,108,"Business Center, Free WiFi",255.04,8,2021,1989,16.46,True,True,True,True
+296,Hotel 296,Virginia Beach,Autograph Collection Hotels,3.1,108,"Pool, Gym, Free WiFi",284.78,4,2009,1989,6.22,False,True,True,False
+297,Hotel 297,Seattle,Westin,4.1,97,"Pool, Gym, Free WiFi",496.64,2,2008,1986,18.97,True,False,True,True
+298,Hotel 298,Seattle,Tribute Portfolio,1.9,218,"Gym, Free Parking",488.3,6,1998,2017,5.88,True,False,False,False
+299,Hotel 299,El Paso,Marriott Vacation Club,3.5,62,"Restaurant, Pool",476.93,9,1990,2006,38.56,True,False,True,True
+300,Hotel 300,Portland,Sheraton,1.3,156,"Spa, Free Breakfast",413.54,1,2013,2012,48.35,True,True,True,False
+301,Hotel 301,Fort Worth,Marriott Hotels,1.2,94,"Spa, Free Breakfast",241.94,10,1986,1980,48.53,True,False,True,True
+302,Hotel 302,Baltimore,Element by Westin,3.1,138,"Business Center, Free WiFi",264.85,7,2013,2013,43.39,True,False,False,False
+303,Hotel 303,Sacramento,Le Méridien,3.2,230,"Business Center, Free WiFi",319.85,10,1999,1983,30.44,False,False,True,False
+304,Hotel 304,Portland,Element by Westin,3.5,219,"Spa, Free Breakfast",432.21,9,2017,1996,35.34,True,False,False,True
+305,Hotel 305,San Diego,Gaylord Hotels,3.9,149,"Pool, Gym, Free WiFi",127.49,10,2003,1983,14.98,False,True,True,True
+306,Hotel 306,Detroit,Fairfield by Marriott,4.9,240,"Restaurant, Pool",269.72,9,1989,2022,31.91,True,True,False,True
+307,Hotel 307,San Francisco,Longer Stays,3.1,204,"Gym, Free Parking",133.05,10,2011,2005,23.33,False,False,True,False
+308,Hotel 308,Long Beach,Fairfield by Marriott,2.3,215,"Spa, Free Breakfast",305.86,3,1994,1983,24.62,False,True,False,False
+309,Hotel 309,Dallas,Sheraton,4.2,237,"Gym, Free Parking",459.56,5,2016,1980,38.13,False,False,True,False
+310,Hotel 310,San Francisco,Marriott Executive Apartments,2.1,56,"Pool, Gym, Free WiFi",412.99,8,1999,1986,14.81,False,False,False,True
+311,Hotel 311,Washington D.C.,JW Marriott,2.8,182,"Restaurant, Pool",191.14,8,1982,2009,16.58,True,False,False,True
+312,Hotel 312,Memphis,Tribute Portfolio,1.3,284,"Restaurant, Pool",490.4,4,2016,1988,46.31,True,True,True,False
+313,Hotel 313,Indianapolis,Design Hotels,1.1,94,"Business Center, Free WiFi",366.94,1,2019,2014,3.75,True,False,False,True
+314,Hotel 314,Sacramento,AC Hotels,4.9,107,"Spa, Free Breakfast",104.17,1,1987,1987,24.8,True,True,False,False
+315,Hotel 315,Fort Worth,Courtyard by Marriott,4.3,298,"Gym, Free Parking",202.17,4,2019,2003,45.73,False,True,True,True
+316,Hotel 316,Fresno,Delta Hotels,3.8,292,"Pool, Gym, Free WiFi",204.29,6,2002,1998,30.91,False,False,True,True
+317,Hotel 317,Milwaukee,SpringHill Suites,2.6,80,"Restaurant, Pool",127.7,8,2019,2015,27.77,False,True,False,False
+318,Hotel 318,San Francisco,Marriott Hotels,1.7,72,"Restaurant, Pool",483.93,6,1990,2022,13.24,True,True,True,True
+319,Hotel 319,Nashville,W Hotels,1.6,219,"Spa, Free Breakfast",291.3,9,1987,2006,17.82,False,False,True,True
+320,Hotel 320,Louisville,Courtyard by Marriott,2.0,187,"Business Center, Free WiFi",458.33,9,2008,2011,42.75,True,True,True,True
+321,Hotel 321,Denver,The Luxury Collection,3.2,209,"Pool, Gym, Free WiFi",228.89,2,2009,1993,28.4,False,True,False,True
+322,Hotel 322,Boston,Sheraton,3.9,156,"Restaurant, Pool",150.09,10,1989,1997,26.22,False,False,False,True
+323,Hotel 323,Dallas,Gaylord Hotels,3.6,230,"Restaurant, Pool",289.73,1,2018,2007,5.88,False,False,False,False
+324,Hotel 324,Jacksonville,Element by Westin,2.1,207,"Restaurant, Pool",145.58,2,2007,2008,1.79,False,True,False,True
+325,Hotel 325,Albuquerque,Marriott Vacation Club,4.8,88,"Spa, Free Breakfast",294.41,5,2015,1995,48.22,False,False,False,False
+326,Hotel 326,Fort Worth,Marriott Hotels,4.0,208,"Gym, Free Parking",468.12,4,1992,2014,19.47,True,False,False,True
+327,Hotel 327,Albuquerque,Design Hotels,3.2,131,"Restaurant, Pool",308.31,4,2011,2010,30.56,False,True,False,True
+328,Hotel 328,Denver,SpringHill Suites,3.4,149,"Gym, Free Parking",346.6,9,2015,1983,4.91,True,True,True,False
+329,Hotel 329,Indianapolis,W Hotels,2.7,51,"Business Center, Free WiFi",162.66,8,2016,2016,34.47,True,False,False,False
+330,Hotel 330,Dallas,The Luxury Collection,2.0,255,"Business Center, Free WiFi",117.49,6,2005,1996,46.7,True,True,False,True
+331,Hotel 331,El Paso,Marriott Hotels,2.4,126,"Spa, Free Breakfast",144.32,1,2001,2018,29.21,True,False,True,True
+332,Hotel 332,Mesa,Tribute Portfolio,4.0,270,"Restaurant, Pool",339.41,2,1983,2005,7.18,True,False,True,False
+333,Hotel 333,Austin,Marriott Executive Apartments,1.1,61,"Spa, Free Breakfast",138.0,6,2010,2018,29.5,True,True,True,False
+334,Hotel 334,Milwaukee,The Luxury Collection,1.5,88,"Gym, Free Parking",250.4,2,1997,2020,38.55,True,True,False,False
+335,Hotel 335,Dallas,AC Hotels,1.2,243,"Business Center, Free WiFi",320.04,10,2017,1983,20.91,True,False,True,False
+336,Hotel 336,Tucson,Sheraton,1.2,273,"Restaurant, Pool",255.46,5,2003,2009,44.11,False,False,False,True
+337,Hotel 337,Jacksonville,Fairfield by Marriott,4.4,62,"Pool, Gym, Free WiFi",165.47,5,2002,2009,32.79,False,False,False,True
+338,Hotel 338,Louisville,Moxy Hotels,3.8,95,"Gym, Free Parking",209.52,6,2001,2001,45.06,True,False,False,True
+339,Hotel 339,Long Beach,AC Hotels,2.9,204,"Spa, Free Breakfast",471.33,6,1981,1990,31.55,True,True,True,True
+340,Hotel 340,San Jose,Sheraton,1.4,162,"Business Center, Free WiFi",370.39,6,2010,1981,7.43,True,False,True,True
+341,Hotel 341,Louisville,Residence Inn,3.0,282,"Business Center, Free WiFi",298.42,2,1990,1991,16.17,False,True,False,False
+342,Hotel 342,Washington D.C.,TownePlace Suites,2.9,66,"Pool, Gym, Free WiFi",105.09,10,2007,2009,10.89,False,True,False,False
+343,Hotel 343,Sacramento,SpringHill Suites,1.7,153,"Gym, Free Parking",496.97,3,2011,2015,45.53,True,False,False,False
+344,Hotel 344,Chicago,Westin,2.7,272,"Spa, Free Breakfast",368.58,6,1984,1997,38.26,True,True,True,True
+345,Hotel 345,Baltimore,St. Regis,2.6,147,"Pool, Gym, Free WiFi",226.77,8,2017,2005,34.14,False,True,False,False
+346,Hotel 346,New York,Select,3.5,237,"Gym, Free Parking",451.71,1,1989,1986,15.75,False,False,True,True
+347,Hotel 347,Portland,AC Hotels,3.5,241,"Pool, Gym, Free WiFi",203.37,1,2019,1980,10.02,True,True,False,True
+348,Hotel 348,Jacksonville,The Luxury Collection,1.2,137,"Gym, Free Parking",317.61,2,2003,2005,38.07,True,True,True,True
+349,Hotel 349,Boston,Sheraton,2.5,158,"Business Center, Free WiFi",354.43,6,2014,2002,24.23,True,False,False,False
+350,Hotel 350,San Jose,Luxury,3.5,212,"Restaurant, Pool",188.43,9,2002,2005,12.06,True,False,True,True
+351,Hotel 351,Indianapolis,Autograph Collection Hotels,3.0,289,"Gym, Free Parking",491.36,4,1996,1985,31.21,False,False,True,True
+352,Hotel 352,Virginia Beach,Residence Inn,4.4,119,"Pool, Gym, Free WiFi",399.28,3,1980,1985,2.98,False,False,True,False
+353,Hotel 353,San Francisco,Tribute Portfolio,3.6,260,"Business Center, Free WiFi",323.13,8,2010,1987,16.98,True,False,True,True
+354,Hotel 354,Dallas,Element by Westin,1.7,207,"Gym, Free Parking",172.24,10,2010,2003,23.96,True,False,True,False
+355,Hotel 355,Oklahoma City,The Luxury Collection,1.3,248,"Spa, Free Breakfast",121.54,9,2021,2001,8.25,True,False,True,True
+356,Hotel 356,San Antonio,Delta Hotels,3.6,123,"Restaurant, Pool",228.02,5,2021,1998,49.25,False,True,False,False
+357,Hotel 357,Memphis,Westin,1.1,282,"Business Center, Free WiFi",401.27,9,2013,2016,11.25,True,True,False,True
+358,Hotel 358,Baltimore,Design Hotels,3.3,273,"Pool, Gym, Free WiFi",207.73,2,1988,1997,7.39,True,False,False,True
+359,Hotel 359,Fresno,Longer Stays,4.8,275,"Spa, Free Breakfast",315.82,3,2001,2010,10.97,True,True,False,False
+360,Hotel 360,Denver,Longer Stays,3.3,112,"Spa, Free Breakfast",391.18,7,1992,2016,38.68,False,True,True,True
+361,Hotel 361,Charlotte,Design Hotels,2.6,205,"Spa, Free Breakfast",143.18,7,2004,2009,21.85,True,False,False,False
+362,Hotel 362,Fresno,Sheraton,3.6,109,"Pool, Gym, Free WiFi",374.12,6,1997,2021,28.71,False,True,True,True
+363,Hotel 363,Albuquerque,Moxy Hotels,2.8,128,"Spa, Free Breakfast",136.75,6,1991,2012,2.03,True,False,True,False
+364,Hotel 364,New York,St. Regis,3.2,271,"Pool, Gym, Free WiFi",486.05,2,2019,1989,2.69,True,True,True,True
+365,Hotel 365,Chicago,W Hotels,4.8,86,"Pool, Gym, Free WiFi",295.36,10,1996,2016,22.85,True,False,False,True
+366,Hotel 366,Columbus,TownePlace Suites,2.5,270,"Restaurant, Pool",160.27,6,1994,1991,41.02,False,True,True,True
+367,Hotel 367,Las Vegas,Premium,4.8,71,"Business Center, Free WiFi",236.95,4,2021,2009,44.38,True,True,False,False
+368,Hotel 368,Nashville,JW Marriott,4.6,245,"Pool, Gym, Free WiFi",265.37,3,1994,2006,5.25,True,True,False,False
+369,Hotel 369,Charlotte,The Ritz-Carlton,1.8,197,"Spa, Free Breakfast",403.27,2,1994,2018,27.38,False,False,False,False
+370,Hotel 370,San Francisco,Delta Hotels,1.3,145,"Gym, Free Parking",397.37,1,2018,1988,45.75,False,True,False,False
+371,Hotel 371,Memphis,TownePlace Suites,1.4,277,"Pool, Gym, Free WiFi",344.78,5,1992,2000,20.01,False,True,False,False
+372,Hotel 372,Phoenix,Fairfield by Marriott,1.1,291,"Pool, Gym, Free WiFi",142.37,2,1996,1991,41.65,True,False,True,True
+373,Hotel 373,Washington D.C.,Le Méridien,1.4,117,"Restaurant, Pool",160.63,2,2011,2008,7.55,False,False,True,True
+374,Hotel 374,Fort Worth,Gaylord Hotels,3.7,268,"Pool, Gym, Free WiFi",137.5,7,1988,2012,46.83,True,True,False,True
+375,Hotel 375,Houston,St. Regis,1.3,241,"Business Center, Free WiFi",330.87,8,2019,2022,37.82,False,True,True,True
+376,Hotel 376,Boston,JW Marriott,2.3,66,"Spa, Free Breakfast",450.86,10,1999,1994,47.13,False,True,False,True
+377,Hotel 377,San Jose,SpringHill Suites,4.4,61,"Gym, Free Parking",273.52,8,2005,1981,34.15,False,True,True,False
+378,Hotel 378,Virginia Beach,AC Hotels,1.1,199,"Pool, Gym, Free WiFi",164.34,4,2006,2018,18.81,True,False,True,True
+379,Hotel 379,Nashville,Element by Westin,4.3,194,"Spa, Free Breakfast",323.22,1,2000,1997,46.97,True,True,True,False
+380,Hotel 380,Oklahoma City,Residence Inn,2.1,187,"Business Center, Free WiFi",424.7,7,1997,1982,14.5,True,True,True,True
+381,Hotel 381,Memphis,Element by Westin,1.5,167,"Gym, Free Parking",396.68,1,1992,1986,17.28,True,False,True,False
+382,Hotel 382,Columbus,Boutique,3.8,242,"Business Center, Free WiFi",452.58,4,1995,2022,35.34,True,True,True,False
+383,Hotel 383,Columbus,Marriott Vacation Club,3.5,71,"Pool, Gym, Free WiFi",211.16,8,1988,1997,38.5,True,True,True,False
+384,Hotel 384,New York,St. Regis,4.5,267,"Pool, Gym, Free WiFi",177.58,2,1991,2017,46.54,True,True,True,True
+385,Hotel 385,San Francisco,The Luxury Collection,3.9,169,"Restaurant, Pool",451.93,6,2017,2016,11.04,True,False,True,True
+386,Hotel 386,Memphis,Autograph Collection Hotels,4.2,259,"Restaurant, Pool",363.02,6,1998,2012,40.1,True,False,True,True
+387,Hotel 387,Tucson,Tribute Portfolio,2.1,99,"Business Center, Free WiFi",224.37,9,1986,2010,37.19,False,True,True,True
+388,Hotel 388,Milwaukee,Residence Inn,1.7,63,"Pool, Gym, Free WiFi",396.94,5,2014,1990,4.13,False,True,True,False
+389,Hotel 389,Tucson,St. Regis,4.0,241,"Business Center, Free WiFi",426.05,10,1997,1983,19.97,True,False,True,False
+390,Hotel 390,New York,Sheraton,4.2,224,"Business Center, Free WiFi",345.99,4,1995,1997,14.86,True,True,False,False
+391,Hotel 391,Philadelphia,Residence Inn,5.0,78,"Restaurant, Pool",375.15,5,2018,1983,15.92,True,True,True,False
+392,Hotel 392,San Francisco,Gaylord Hotels,2.7,253,"Business Center, Free WiFi",250.1,10,1983,2013,49.16,True,False,True,True
+393,Hotel 393,Mesa,Residence Inn,2.5,213,"Business Center, Free WiFi",315.48,5,2004,2008,32.5,False,False,True,False
+394,Hotel 394,Kansas City,St. Regis,4.1,276,"Spa, Free Breakfast",309.66,8,2011,2003,36.17,False,False,True,True
+395,Hotel 395,Detroit,The Luxury Collection,2.4,229,"Pool, Gym, Free WiFi",439.22,10,2019,2001,48.85,True,True,True,False
+396,Hotel 396,New York,Select,4.7,174,"Business Center, Free WiFi",435.99,8,1992,1981,19.48,False,True,True,False
+397,Hotel 397,San Antonio,Marriott Executive Apartments,4.4,253,"Restaurant, Pool",433.07,2,1996,1985,40.29,False,True,False,False
+398,Hotel 398,Jacksonville,Select,2.7,56,"Restaurant, Pool",104.41,7,2016,2021,22.29,True,True,False,True
+399,Hotel 399,Kansas City,Delta Hotels,4.0,78,"Business Center, Free WiFi",399.82,8,1985,2004,43.61,True,False,False,True
+400,Hotel 400,Tucson,Tribute Portfolio,4.0,188,"Restaurant, Pool",403.47,6,1998,2000,9.85,True,True,True,False
+401,Hotel 401,Albuquerque,Gaylord Hotels,1.4,82,"Pool, Gym, Free WiFi",371.35,5,1992,1995,47.44,True,True,True,False
+402,Hotel 402,Washington D.C.,AC Hotels,4.6,183,"Gym, Free Parking",402.51,9,2005,2010,11.72,False,False,True,False
+403,Hotel 403,San Diego,Autograph Collection Hotels,3.0,160,"Pool, Gym, Free WiFi",436.79,3,1993,1993,16.98,True,False,False,True
+404,Hotel 404,Oklahoma City,Longer Stays,4.3,128,"Pool, Gym, Free WiFi",288.13,10,2010,2018,38.05,False,True,True,True
+405,Hotel 405,Houston,Gaylord Hotels,2.3,209,"Spa, Free Breakfast",300.82,4,1983,2007,20.29,True,False,True,True
+406,Hotel 406,Memphis,TownePlace Suites,4.6,228,"Restaurant, Pool",149.89,9,2018,2011,30.8,False,False,False,False
+407,Hotel 407,Chicago,SpringHill Suites,2.6,252,"Gym, Free Parking",254.15,6,1987,2007,22.78,True,True,False,True
+408,Hotel 408,New York,Boutique,1.0,107,"Pool, Gym, Free WiFi",357.35,8,2004,1988,37.38,True,True,True,False
+409,Hotel 409,Dallas,Design Hotels,4.6,264,"Business Center, Free WiFi",412.16,7,1992,2001,12.19,False,True,True,True
+410,Hotel 410,Las Vegas,Westin,1.4,75,"Gym, Free Parking",186.88,2,2011,2011,3.86,False,True,True,False
+411,Hotel 411,Nashville,Gaylord Hotels,2.3,275,"Gym, Free Parking",155.13,3,2017,1984,15.7,False,False,True,False
+412,Hotel 412,Philadelphia,Marriott Vacation Club,4.8,223,"Pool, Gym, Free WiFi",365.22,1,2017,2002,24.24,True,False,False,True
+413,Hotel 413,Charlotte,Boutique,4.8,275,"Business Center, Free WiFi",100.75,9,2007,1984,9.23,False,True,True,False
+414,Hotel 414,Portland,W Hotels,3.3,78,"Pool, Gym, Free WiFi",171.35,7,2009,2021,18.39,False,True,True,False
+415,Hotel 415,Sacramento,W Hotels,3.5,53,"Business Center, Free WiFi",111.63,1,1982,2011,20.6,False,False,False,False
+416,Hotel 416,Charlotte,AC Hotels,2.8,258,"Business Center, Free WiFi",166.75,3,2007,1989,3.81,False,True,True,True
+417,Hotel 417,Phoenix,Gaylord Hotels,2.2,148,"Spa, Free Breakfast",172.53,4,1982,2018,29.58,False,True,True,False
+418,Hotel 418,New York,TownePlace Suites,2.3,190,"Restaurant, Pool",255.07,4,2013,1994,44.33,False,True,False,True
+419,Hotel 419,San Diego,Marriott Executive Apartments,3.7,282,"Business Center, Free WiFi",260.93,5,1995,1986,8.44,False,True,False,True
+420,Hotel 420,Oklahoma City,Autograph Collection Hotels,4.0,88,"Restaurant, Pool",449.7,3,2001,2008,30.29,False,False,True,False
+421,Hotel 421,Las Vegas,Longer Stays,4.2,64,"Restaurant, Pool",304.04,3,2011,1982,33.57,False,True,False,True
+422,Hotel 422,Mesa,The Ritz-Carlton,4.2,168,"Restaurant, Pool",389.36,1,2017,1998,21.55,True,False,False,False
+423,Hotel 423,Oklahoma City,Marriott Vacation Club,1.4,78,"Gym, Free Parking",141.65,7,1987,1989,35.35,True,True,True,True
+424,Hotel 424,Atlanta,Design Hotels,3.0,206,"Spa, Free Breakfast",190.18,10,1987,2007,21.13,False,True,False,False
+425,Hotel 425,Las Vegas,Select,1.2,124,"Pool, Gym, Free WiFi",381.18,1,1985,2008,25.73,True,False,True,True
+426,Hotel 426,Mesa,Le Méridien,3.2,165,"Spa, Free Breakfast",121.12,2,1993,1994,1.36,True,True,True,False
+427,Hotel 427,Chicago,Residence Inn,2.8,81,"Spa, Free Breakfast",294.64,4,2011,2014,34.89,False,False,True,False
+428,Hotel 428,Las Vegas,Marriott Executive Apartments,4.6,179,"Business Center, Free WiFi",339.75,4,2014,1985,33.41,False,True,True,False
+429,Hotel 429,San Francisco,Design Hotels,2.4,224,"Spa, Free Breakfast",340.86,5,1989,1991,2.88,False,True,False,False
+430,Hotel 430,Denver,JW Marriott,1.5,255,"Gym, Free Parking",109.17,2,1982,2017,19.04,False,True,True,True
+431,Hotel 431,Long Beach,Le Méridien,1.6,133,"Pool, Gym, Free WiFi",228.84,4,1991,1992,48.97,False,True,True,True
+432,Hotel 432,Columbus,AC Hotels,4.0,71,"Restaurant, Pool",354.6,1,2010,2008,21.62,False,True,True,False
+433,Hotel 433,Tucson,Courtyard by Marriott,3.5,252,"Business Center, Free WiFi",159.6,2,2008,1998,25.6,True,False,True,True
+434,Hotel 434,Fresno,Sheraton,1.4,76,"Pool, Gym, Free WiFi",378.17,1,1984,1982,45.59,False,False,False,False
+435,Hotel 435,Sacramento,The Ritz-Carlton,1.3,244,"Gym, Free Parking",398.37,10,2004,1987,36.15,True,True,False,False
+436,Hotel 436,Jacksonville,Delta Hotels,3.8,130,"Spa, Free Breakfast",492.79,10,2020,1987,29.52,False,True,False,True
+437,Hotel 437,Baltimore,Courtyard by Marriott,1.3,175,"Pool, Gym, Free WiFi",183.94,4,2010,1999,40.09,False,False,True,True
+438,Hotel 438,Fresno,Courtyard by Marriott,4.3,285,"Gym, Free Parking",430.05,4,2000,1983,43.35,True,False,False,False
+439,Hotel 439,Tucson,Sheraton,3.8,233,"Spa, Free Breakfast",308.12,7,1999,2000,23.39,False,True,False,True
+440,Hotel 440,Oklahoma City,JW Marriott,1.3,141,"Pool, Gym, Free WiFi",249.39,10,2018,1982,24.28,False,True,True,False
+441,Hotel 441,Columbus,SpringHill Suites,1.3,270,"Gym, Free Parking",148.95,9,2001,1987,19.92,True,False,False,True
+442,Hotel 442,Memphis,Tribute Portfolio,4.9,70,"Business Center, Free WiFi",394.2,9,1983,2002,48.37,False,True,True,True
+443,Hotel 443,Philadelphia,Element by Westin,2.5,96,"Restaurant, Pool",194.34,5,1992,1995,35.16,True,False,False,True
+444,Hotel 444,Tucson,Moxy Hotels,2.5,257,"Business Center, Free WiFi",248.57,10,2021,1992,5.08,False,True,False,True
+445,Hotel 445,Nashville,Luxury,4.3,150,"Business Center, Free WiFi",125.02,1,1999,1982,43.29,False,False,False,True
+446,Hotel 446,San Jose,Residence Inn,4.8,236,"Spa, Free Breakfast",420.55,1,1992,1988,24.55,True,False,False,False
+447,Hotel 447,Fort Worth,St. Regis,4.9,133,"Spa, Free Breakfast",406.64,6,1996,1993,4.37,False,True,True,True
+448,Hotel 448,Tucson,Moxy Hotels,4.0,55,"Restaurant, Pool",393.45,2,2015,1992,27.94,True,False,True,True
+449,Hotel 449,San Diego,Gaylord Hotels,2.5,196,"Gym, Free Parking",219.78,8,2012,1986,21.44,True,True,False,False
+450,Hotel 450,Kansas City,Marriott Hotels,1.3,234,"Gym, Free Parking",169.39,9,1980,1994,44.01,True,True,True,False
+451,Hotel 451,Seattle,Tribute Portfolio,4.1,246,"Gym, Free Parking",355.02,4,1994,1986,11.0,False,True,False,False
+452,Hotel 452,Washington D.C.,Tribute Portfolio,3.2,180,"Spa, Free Breakfast",298.47,5,1992,2017,41.5,False,True,False,True
+453,Hotel 453,Fort Worth,SpringHill Suites,2.7,50,"Business Center, Free WiFi",171.3,8,1996,2013,28.33,True,False,False,True
+454,Hotel 454,Washington D.C.,Gaylord Hotels,4.6,107,"Pool, Gym, Free WiFi",374.36,3,2003,2020,3.68,False,True,False,False
+455,Hotel 455,Los Angeles,Boutique,1.4,173,"Pool, Gym, Free WiFi",496.45,5,1987,2001,48.62,False,True,False,False
+456,Hotel 456,Fort Worth,Sheraton,3.0,215,"Restaurant, Pool",398.89,3,2006,2003,26.12,False,True,False,False
+457,Hotel 457,Phoenix,Le Méridien,1.0,64,"Gym, Free Parking",395.99,10,2002,2016,15.25,True,True,True,False
+458,Hotel 458,San Jose,Courtyard by Marriott,2.9,211,"Spa, Free Breakfast",480.13,3,1987,1980,24.0,False,False,True,True
+459,Hotel 459,Fort Worth,Sheraton,1.2,238,"Gym, Free Parking",181.17,3,1987,1989,43.04,True,True,False,True
+460,Hotel 460,Detroit,SpringHill Suites,1.5,212,"Restaurant, Pool",326.22,7,2005,2022,15.94,False,False,True,True
+461,Hotel 461,Jacksonville,Moxy Hotels,1.5,113,"Spa, Free Breakfast",491.86,7,1992,1995,10.44,False,False,False,True
+462,Hotel 462,Nashville,Gaylord Hotels,3.6,290,"Pool, Gym, Free WiFi",166.12,7,2018,1987,7.32,True,False,True,True
+463,Hotel 463,Nashville,Element by Westin,4.0,74,"Restaurant, Pool",380.1,10,2016,2004,15.6,False,True,True,False
+464,Hotel 464,Oklahoma City,St. Regis,3.3,73,"Pool, Gym, Free WiFi",334.32,8,2007,1991,39.22,True,True,True,True
+465,Hotel 465,San Antonio,Marriott Hotels,4.8,61,"Gym, Free Parking",334.59,5,2004,2004,24.11,False,True,False,False
+466,Hotel 466,San Jose,Element by Westin,2.5,67,"Restaurant, Pool",379.07,5,1995,1996,12.15,True,True,True,False
+467,Hotel 467,Philadelphia,AC Hotels,2.1,64,"Gym, Free Parking",471.85,4,1981,2005,9.14,False,False,False,False
+468,Hotel 468,Tucson,Select,4.5,285,"Restaurant, Pool",413.03,7,1997,1993,17.3,False,False,False,True
+469,Hotel 469,Mesa,AC Hotels,1.9,257,"Spa, Free Breakfast",122.45,10,1996,2020,47.06,False,True,False,False
+470,Hotel 470,Milwaukee,The Luxury Collection,4.9,76,"Business Center, Free WiFi",441.09,4,2009,2015,17.81,True,True,True,True
+471,Hotel 471,Phoenix,Design Hotels,1.0,121,"Business Center, Free WiFi",190.22,2,2018,2002,49.42,True,True,True,False
+472,Hotel 472,Baltimore,Premium,4.9,109,"Business Center, Free WiFi",250.77,4,1992,2022,24.78,True,True,True,True
+473,Hotel 473,Los Angeles,Residence Inn,1.2,223,"Gym, Free Parking",284.69,8,2011,1985,9.78,False,True,False,False
+474,Hotel 474,Jacksonville,Gaylord Hotels,4.6,266,"Business Center, Free WiFi",292.36,9,2008,1984,44.67,True,True,False,True
+475,Hotel 475,Columbus,TownePlace Suites,3.1,194,"Gym, Free Parking",274.07,3,2009,2022,23.56,True,True,True,False
+476,Hotel 476,Portland,The Ritz-Carlton,5.0,142,"Gym, Free Parking",474.94,7,1997,2004,35.77,True,False,False,False
+477,Hotel 477,Portland,Element by Westin,1.3,102,"Business Center, Free WiFi",382.41,9,1992,1997,49.2,True,False,True,False
+478,Hotel 478,Indianapolis,Fairfield by Marriott,3.2,57,"Spa, Free Breakfast",352.47,4,2022,1992,3.46,True,False,True,False
+479,Hotel 479,Boston,Luxury,4.9,128,"Gym, Free Parking",119.94,10,2000,2022,5.74,True,False,True,True
+480,Hotel 480,Indianapolis,Luxury,3.1,76,"Spa, Free Breakfast",461.57,3,2009,1993,36.3,True,True,True,True
+481,Hotel 481,Philadelphia,AC Hotels,3.5,223,"Spa, Free Breakfast",463.76,5,2000,2007,14.81,True,True,False,True
+482,Hotel 482,Columbus,Marriott Executive Apartments,3.8,99,"Restaurant, Pool",412.09,1,1996,1997,10.03,True,True,True,False
+483,Hotel 483,Long Beach,Marriott Hotels,2.8,293,"Business Center, Free WiFi",102.81,3,2019,2007,2.93,True,True,True,False
+484,Hotel 484,San Jose,Marriott Executive Apartments,3.5,248,"Restaurant, Pool",122.91,8,1998,2006,2.07,False,True,True,False
+485,Hotel 485,Virginia Beach,TownePlace Suites,3.3,180,"Gym, Free Parking",190.09,8,1994,2011,38.95,False,False,True,False
+486,Hotel 486,Austin,Gaylord Hotels,4.6,142,"Gym, Free Parking",152.54,4,1988,1988,7.59,True,True,True,False
+487,Hotel 487,Austin,Sheraton,1.2,241,"Pool, Gym, Free WiFi",259.53,2,1989,2019,23.92,False,False,True,False
+488,Hotel 488,El Paso,Sheraton,2.1,221,"Gym, Free Parking",469.05,8,2010,2011,30.69,False,True,True,True
+489,Hotel 489,Sacramento,Design Hotels,4.8,230,"Restaurant, Pool",288.82,8,2002,1999,21.99,True,False,False,True
+490,Hotel 490,Denver,SpringHill Suites,4.6,73,"Restaurant, Pool",105.36,10,2009,2007,2.33,True,True,False,True
+491,Hotel 491,Milwaukee,The Luxury Collection,2.8,109,"Business Center, Free WiFi",213.1,4,2012,2012,39.39,True,False,False,True
+492,Hotel 492,Mesa,Sheraton,3.5,171,"Business Center, Free WiFi",117.84,3,1988,1983,1.52,False,True,False,True
+493,Hotel 493,Detroit,Select,2.1,180,"Restaurant, Pool",114.52,2,1980,2013,38.33,True,True,True,True
+494,Hotel 494,Indianapolis,Longer Stays,1.8,197,"Spa, Free Breakfast",210.29,9,2014,1982,44.77,False,True,False,True
+495,Hotel 495,Oklahoma City,Element by Westin,2.9,95,"Spa, Free Breakfast",210.24,1,1990,2005,22.21,True,True,False,True
+496,Hotel 496,Sacramento,Marriott Hotels,2.4,64,"Pool, Gym, Free WiFi",414.85,7,2013,1987,27.24,False,False,False,False
+497,Hotel 497,San Jose,Delta Hotels,3.3,202,"Gym, Free Parking",489.93,5,1995,1985,24.37,False,True,True,False
+498,Hotel 498,Columbus,JW Marriott,1.3,271,"Restaurant, Pool",248.48,8,1988,1995,20.07,True,False,False,False
+499,Hotel 499,Charlotte,Delta Hotels,4.9,255,"Gym, Free Parking",271.55,4,2011,2003,44.48,True,True,False,False
+500,Hotel 500,New York,W Hotels,4.9,248,"Pool, Gym, Free WiFi",437.92,7,1994,2018,44.8,False,False,True,False
+501,Hotel 501,Boston,Autograph Collection Hotels,3.8,66,"Pool, Gym, Free WiFi",207.26,5,1991,2009,17.46,False,True,False,False
+502,Hotel 502,Sacramento,JW Marriott,3.1,175,"Gym, Free Parking",162.55,5,2012,1992,31.14,True,True,True,False
+503,Hotel 503,Virginia Beach,Marriott Executive Apartments,2.2,285,"Restaurant, Pool",441.24,9,1993,1984,46.42,True,False,False,True
+504,Hotel 504,Fort Worth,Fairfield by Marriott,4.3,133,"Business Center, Free WiFi",118.6,9,1987,2004,48.14,False,True,True,True
+505,Hotel 505,San Diego,JW Marriott,3.7,277,"Pool, Gym, Free WiFi",347.88,9,1987,1999,25.94,True,True,False,False
+506,Hotel 506,San Diego,TownePlace Suites,1.7,58,"Business Center, Free WiFi",324.8,6,2006,1997,23.19,False,False,False,True
+507,Hotel 507,Portland,TownePlace Suites,4.6,215,"Restaurant, Pool",238.37,6,1991,1997,14.66,True,True,False,True
+508,Hotel 508,Columbus,Le Méridien,4.3,225,"Business Center, Free WiFi",226.08,5,1980,1981,47.98,True,False,True,True
+509,Hotel 509,Mesa,Fairfield by Marriott,4.8,298,"Pool, Gym, Free WiFi",408.74,9,2022,1989,8.0,True,True,False,True
+510,Hotel 510,Seattle,Moxy Hotels,3.9,237,"Gym, Free Parking",134.57,10,2019,1991,29.41,False,False,True,True
+511,Hotel 511,Fort Worth,Residence Inn,3.5,112,"Spa, Free Breakfast",194.71,8,2021,1992,14.84,True,False,True,False
+512,Hotel 512,New York,Luxury,2.7,263,"Pool, Gym, Free WiFi",392.98,7,1990,1990,14.67,False,False,True,True
+513,Hotel 513,Tucson,Residence Inn,4.7,295,"Gym, Free Parking",319.33,7,2018,1998,20.84,True,False,True,False
+514,Hotel 514,Portland,Fairfield by Marriott,4.5,294,"Business Center, Free WiFi",151.2,6,2022,2014,49.94,False,True,False,False
+515,Hotel 515,San Antonio,Select,1.2,166,"Gym, Free Parking",452.85,5,2010,2018,3.69,False,True,False,False
+516,Hotel 516,Louisville,Premium,1.1,179,"Spa, Free Breakfast",257.38,4,1996,2005,29.35,True,False,False,True
+517,Hotel 517,Mesa,SpringHill Suites,2.5,137,"Business Center, Free WiFi",431.15,3,2012,1993,5.05,False,True,True,False
+518,Hotel 518,Mesa,Delta Hotels,4.2,121,"Restaurant, Pool",415.09,3,2011,2003,8.57,False,True,False,False
+519,Hotel 519,Long Beach,Design Hotels,4.9,188,"Business Center, Free WiFi",349.77,6,2008,2020,22.54,False,True,True,False
+520,Hotel 520,Baltimore,Westin,1.6,113,"Business Center, Free WiFi",297.79,4,2000,1980,26.01,False,False,True,False
+521,Hotel 521,New York,TownePlace Suites,3.4,254,"Gym, Free Parking",491.82,6,2000,2022,13.68,True,True,True,True
+522,Hotel 522,Fort Worth,Delta Hotels,2.5,258,"Pool, Gym, Free WiFi",157.99,3,2019,2001,16.51,True,True,False,False
+523,Hotel 523,Albuquerque,Autograph Collection Hotels,4.9,121,"Restaurant, Pool",390.06,4,2002,2002,5.26,True,False,False,False
+524,Hotel 524,Chicago,Element by Westin,4.4,70,"Spa, Free Breakfast",176.48,9,1985,1998,15.86,False,True,True,False
+525,Hotel 525,Indianapolis,SpringHill Suites,4.4,67,"Gym, Free Parking",235.31,5,2001,1997,48.36,False,False,False,False
+526,Hotel 526,Los Angeles,Element by Westin,2.9,271,"Pool, Gym, Free WiFi",223.48,7,2017,1991,47.29,True,False,False,True
+527,Hotel 527,Austin,Premium,2.7,113,"Restaurant, Pool",478.81,10,2016,2007,17.41,True,False,True,False
+528,Hotel 528,Washington D.C.,Luxury,2.1,131,"Pool, Gym, Free WiFi",486.94,2,1987,2007,28.97,False,True,True,False
+529,Hotel 529,Portland,Marriott Vacation Club,1.2,159,"Business Center, Free WiFi",173.21,5,2020,2012,45.57,True,True,False,False
+530,Hotel 530,Washington D.C.,Delta Hotels,4.5,288,"Pool, Gym, Free WiFi",108.81,9,2014,1998,1.3,True,False,True,False
+531,Hotel 531,El Paso,Sheraton,4.3,144,"Business Center, Free WiFi",388.0,3,1990,2007,40.72,False,False,True,False
+532,Hotel 532,Indianapolis,Design Hotels,5.0,215,"Gym, Free Parking",267.2,9,2003,2016,47.47,True,False,False,False
+533,Hotel 533,Nashville,Select,5.0,81,"Pool, Gym, Free WiFi",135.54,6,2000,2005,5.47,False,False,False,True
+534,Hotel 534,Detroit,Fairfield by Marriott,3.2,60,"Pool, Gym, Free WiFi",373.5,4,1981,2014,8.91,True,False,True,False
+535,Hotel 535,Philadelphia,Courtyard by Marriott,4.1,94,"Spa, Free Breakfast",318.04,7,2019,2013,48.08,False,False,False,True
+536,Hotel 536,Tucson,Delta Hotels,4.8,266,"Business Center, Free WiFi",492.21,8,1998,2014,27.34,False,True,True,True
+537,Hotel 537,San Francisco,Marriott Hotels,4.4,82,"Gym, Free Parking",190.96,6,2018,2019,1.7,False,False,True,False
+538,Hotel 538,Albuquerque,Boutique,2.0,151,"Spa, Free Breakfast",261.59,5,2007,1995,13.62,False,False,False,True
+539,Hotel 539,Jacksonville,Courtyard by Marriott,2.8,218,"Spa, Free Breakfast",317.02,6,1996,2017,23.05,False,False,True,False
+540,Hotel 540,Kansas City,The Luxury Collection,1.5,185,"Spa, Free Breakfast",416.68,5,1985,1992,34.95,True,True,True,True
+541,Hotel 541,Milwaukee,Fairfield by Marriott,4.8,60,"Restaurant, Pool",319.54,8,1998,2002,36.92,True,True,True,False
+542,Hotel 542,Albuquerque,W Hotels,3.4,263,"Pool, Gym, Free WiFi",345.16,1,2017,2001,49.78,True,True,False,True
+543,Hotel 543,Atlanta,Courtyard by Marriott,1.9,228,"Spa, Free Breakfast",190.46,7,2007,1995,15.09,False,True,False,True
+544,Hotel 544,San Diego,Delta Hotels,3.7,137,"Spa, Free Breakfast",438.77,10,1981,2007,27.37,True,False,False,False
+545,Hotel 545,Columbus,Westin,3.5,90,"Business Center, Free WiFi",271.45,10,2017,2014,27.13,False,True,True,True
+546,Hotel 546,Memphis,Luxury,2.4,194,"Pool, Gym, Free WiFi",156.38,2,2016,1987,20.88,False,False,True,True
+547,Hotel 547,Nashville,TownePlace Suites,1.5,125,"Pool, Gym, Free WiFi",365.68,9,1983,2001,9.29,True,False,False,True
+548,Hotel 548,Mesa,St. Regis,3.7,170,"Pool, Gym, Free WiFi",186.44,1,2001,2000,48.9,False,False,False,True
+549,Hotel 549,Los Angeles,The Ritz-Carlton,3.1,95,"Gym, Free Parking",139.03,10,2005,2005,42.81,True,False,False,True
+550,Hotel 550,Portland,Design Hotels,4.1,209,"Gym, Free Parking",444.79,6,2022,2019,25.42,False,False,True,False
+551,Hotel 551,Washington D.C.,Courtyard by Marriott,3.1,256,"Spa, Free Breakfast",284.06,9,2015,2000,30.56,False,False,False,True
+552,Hotel 552,Sacramento,Moxy Hotels,4.4,129,"Gym, Free Parking",399.71,1,1992,2004,12.14,True,True,True,True
+553,Hotel 553,Detroit,Moxy Hotels,3.2,103,"Pool, Gym, Free WiFi",216.24,4,2011,2020,27.65,False,True,False,False
+554,Hotel 554,Portland,Marriott Hotels,3.2,135,"Restaurant, Pool",414.79,4,1996,1980,35.05,True,True,True,False
+555,Hotel 555,San Diego,St. Regis,4.5,141,"Pool, Gym, Free WiFi",144.77,9,2020,1985,26.24,False,True,True,False
+556,Hotel 556,Indianapolis,Marriott Executive Apartments,2.6,197,"Spa, Free Breakfast",242.39,5,2015,2002,49.52,True,True,False,True
+557,Hotel 557,Albuquerque,Premium,1.5,210,"Gym, Free Parking",491.22,5,1998,2002,30.96,False,False,True,True
+558,Hotel 558,Portland,St. Regis,1.1,251,"Spa, Free Breakfast",417.6,6,2014,2022,19.18,True,True,False,True
+559,Hotel 559,Seattle,Select,4.0,217,"Spa, Free Breakfast",298.9,1,2019,2022,38.84,True,True,True,True
+560,Hotel 560,Tucson,Marriott Vacation Club,3.5,209,"Business Center, Free WiFi",235.91,1,2007,2002,9.35,False,True,True,False
+561,Hotel 561,Dallas,Select,3.8,291,"Restaurant, Pool",448.85,9,1980,2011,19.84,True,False,False,False
+562,Hotel 562,Los Angeles,Premium,1.9,146,"Gym, Free Parking",317.94,3,2021,2009,18.0,False,False,True,True
+563,Hotel 563,Virginia Beach,Tribute Portfolio,1.5,51,"Business Center, Free WiFi",403.37,4,1997,1992,22.16,False,False,False,True
+564,Hotel 564,Washington D.C.,The Ritz-Carlton,1.1,274,"Gym, Free Parking",401.64,1,2019,2022,39.31,True,True,False,True
+565,Hotel 565,Fort Worth,Courtyard by Marriott,2.4,82,"Business Center, Free WiFi",107.18,9,2012,1997,24.72,True,True,False,True
+566,Hotel 566,Albuquerque,The Ritz-Carlton,3.4,282,"Spa, Free Breakfast",150.5,8,1991,2002,39.91,True,True,True,False
+567,Hotel 567,Kansas City,Element by Westin,2.6,254,"Restaurant, Pool",363.85,2,1987,1994,29.25,True,True,True,False
+568,Hotel 568,Portland,JW Marriott,2.7,207,"Pool, Gym, Free WiFi",164.65,8,2003,2012,17.76,True,True,True,True
+569,Hotel 569,Detroit,Delta Hotels,4.6,210,"Restaurant, Pool",202.2,7,1995,2000,40.69,False,False,False,False
+570,Hotel 570,Long Beach,Marriott Hotels,2.4,126,"Pool, Gym, Free WiFi",478.66,6,1983,2018,12.68,True,True,False,True
+571,Hotel 571,Phoenix,The Luxury Collection,3.1,165,"Restaurant, Pool",324.07,1,2017,2002,11.99,False,False,True,True
+572,Hotel 572,Washington D.C.,Marriott Hotels,4.1,203,"Business Center, Free WiFi",400.29,7,2006,2006,25.72,True,True,True,False
+573,Hotel 573,El Paso,JW Marriott,2.6,199,"Spa, Free Breakfast",323.19,10,1988,1997,13.78,True,False,False,True
+574,Hotel 574,Detroit,Moxy Hotels,3.5,152,"Spa, Free Breakfast",321.01,7,1995,2003,1.45,True,False,True,False
+575,Hotel 575,Virginia Beach,Sheraton,4.4,243,"Business Center, Free WiFi",137.66,9,1991,2019,32.77,False,False,False,True
+576,Hotel 576,San Francisco,Le Méridien,4.8,215,"Restaurant, Pool",237.47,1,2010,2021,26.04,True,False,True,False
+577,Hotel 577,Dallas,Le Méridien,1.6,152,"Business Center, Free WiFi",212.97,2,2003,1986,22.83,False,True,False,True
+578,Hotel 578,Milwaukee,Le Méridien,4.7,139,"Gym, Free Parking",256.29,9,1993,1999,48.38,False,True,True,False
+579,Hotel 579,Charlotte,Luxury,3.0,223,"Restaurant, Pool",419.34,9,2004,2006,28.99,False,True,True,True
+580,Hotel 580,Seattle,W Hotels,2.0,171,"Business Center, Free WiFi",248.77,6,2013,1985,43.31,True,False,False,True
+581,Hotel 581,Seattle,The Ritz-Carlton,2.8,291,"Gym, Free Parking",280.68,6,1982,2006,7.83,False,True,False,False
+582,Hotel 582,El Paso,The Ritz-Carlton,4.9,192,"Restaurant, Pool",258.95,4,2003,1988,28.89,True,True,False,True
+583,Hotel 583,Oklahoma City,Sheraton,3.0,275,"Restaurant, Pool",137.36,4,2021,2010,43.53,False,True,True,False
+584,Hotel 584,Boston,Moxy Hotels,2.3,155,"Business Center, Free WiFi",276.43,5,1988,2000,29.57,True,True,False,False
+585,Hotel 585,San Francisco,Longer Stays,3.5,168,"Restaurant, Pool",178.24,3,2005,2005,36.18,False,False,False,True
+586,Hotel 586,Columbus,Autograph Collection Hotels,2.0,221,"Business Center, Free WiFi",174.69,1,1999,2019,19.23,True,False,True,True
+587,Hotel 587,Boston,Le Méridien,1.3,98,"Gym, Free Parking",137.61,1,2019,1992,5.53,True,True,False,True
+588,Hotel 588,Long Beach,Marriott Hotels,1.5,153,"Spa, Free Breakfast",242.67,7,1989,2002,23.44,True,True,False,True
+589,Hotel 589,Kansas City,SpringHill Suites,1.5,252,"Gym, Free Parking",402.99,1,1998,1999,20.33,False,True,False,False
+590,Hotel 590,Washington D.C.,Design Hotels,1.6,110,"Business Center, Free WiFi",210.58,1,1982,2016,43.49,False,False,True,True
+591,Hotel 591,Houston,Marriott Hotels,1.6,244,"Spa, Free Breakfast",224.94,3,2003,2007,12.96,True,False,True,True
+592,Hotel 592,Las Vegas,Fairfield by Marriott,3.6,172,"Spa, Free Breakfast",357.07,10,1984,1996,48.37,False,False,True,True
+593,Hotel 593,Dallas,Sheraton,1.7,183,"Restaurant, Pool",178.34,4,1982,2007,47.95,False,True,False,False
+594,Hotel 594,San Jose,Luxury,2.4,58,"Gym, Free Parking",458.78,4,2006,2020,13.13,False,False,True,True
+595,Hotel 595,Albuquerque,Fairfield by Marriott,4.6,55,"Business Center, Free WiFi",308.08,2,1995,1981,18.05,False,False,False,False
+596,Hotel 596,San Antonio,The Ritz-Carlton,2.9,122,"Gym, Free Parking",279.04,1,1994,2004,44.88,False,False,False,True
+597,Hotel 597,Los Angeles,Design Hotels,3.7,152,"Business Center, Free WiFi",323.13,3,2014,2020,48.36,False,False,False,False
+598,Hotel 598,Milwaukee,The Ritz-Carlton,1.7,272,"Restaurant, Pool",166.41,4,1991,1985,22.73,False,False,True,True
+599,Hotel 599,Long Beach,Marriott Executive Apartments,1.8,209,"Spa, Free Breakfast",345.39,3,2020,1990,16.73,True,True,True,True
+600,Hotel 600,Jacksonville,The Luxury Collection,1.2,90,"Pool, Gym, Free WiFi",245.24,8,2005,2017,26.78,True,True,False,False
+601,Hotel 601,Virginia Beach,SpringHill Suites,1.7,163,"Pool, Gym, Free WiFi",458.87,10,2013,1985,34.7,False,True,False,True
+602,Hotel 602,Denver,The Luxury Collection,2.1,253,"Spa, Free Breakfast",167.54,1,2002,1990,14.4,True,True,True,True
+603,Hotel 603,San Jose,AC Hotels,1.7,57,"Pool, Gym, Free WiFi",302.82,2,2010,1993,37.09,True,False,True,True
+604,Hotel 604,Albuquerque,W Hotels,1.4,121,"Spa, Free Breakfast",339.25,7,1999,1981,3.53,True,True,True,False
+605,Hotel 605,Kansas City,TownePlace Suites,1.5,227,"Pool, Gym, Free WiFi",113.35,4,1991,2019,3.42,False,True,False,True
+606,Hotel 606,San Diego,SpringHill Suites,2.8,141,"Spa, Free Breakfast",245.48,8,2002,1982,19.93,False,True,True,False
+607,Hotel 607,Phoenix,Marriott Vacation Club,1.8,111,"Restaurant, Pool",393.05,3,1983,2014,18.32,False,False,True,False
+608,Hotel 608,Denver,Luxury,2.5,133,"Restaurant, Pool",428.15,6,2002,2012,16.47,False,True,True,False
+609,Hotel 609,Fort Worth,JW Marriott,3.0,111,"Spa, Free Breakfast",225.26,9,1980,2003,25.06,False,False,False,True
+610,Hotel 610,Seattle,The Ritz-Carlton,3.8,160,"Spa, Free Breakfast",419.44,1,2004,1998,16.72,True,False,True,False
+611,Hotel 611,Albuquerque,Select,1.2,176,"Restaurant, Pool",487.1,1,1981,1997,10.42,False,False,False,False
+612,Hotel 612,Tucson,Autograph Collection Hotels,4.2,56,"Pool, Gym, Free WiFi",442.75,8,2009,2003,16.16,True,True,False,True
+613,Hotel 613,Jacksonville,The Ritz-Carlton,3.5,252,"Restaurant, Pool",147.06,3,1982,2014,48.77,False,False,False,False
+614,Hotel 614,Phoenix,Element by Westin,1.3,133,"Restaurant, Pool",395.89,5,2000,1980,21.14,True,True,True,False
+615,Hotel 615,Chicago,Moxy Hotels,4.5,257,"Gym, Free Parking",227.87,1,2004,2015,22.79,False,True,True,True
+616,Hotel 616,Virginia Beach,TownePlace Suites,4.7,181,"Restaurant, Pool",495.37,5,1999,2004,29.25,False,True,True,True
+617,Hotel 617,Charlotte,AC Hotels,1.2,183,"Business Center, Free WiFi",294.14,6,2001,2022,49.18,False,False,False,False
+618,Hotel 618,Memphis,Westin,2.1,107,"Pool, Gym, Free WiFi",148.97,8,2000,2013,12.84,False,False,True,True
+619,Hotel 619,Long Beach,Boutique,4.2,71,"Gym, Free Parking",390.07,3,2012,2004,34.38,False,True,False,True
+620,Hotel 620,Jacksonville,Autograph Collection Hotels,4.0,203,"Spa, Free Breakfast",229.2,3,2017,1995,36.08,False,False,True,True
+621,Hotel 621,Memphis,Gaylord Hotels,1.7,176,"Business Center, Free WiFi",498.83,10,1994,2013,30.76,True,False,True,False
+622,Hotel 622,Atlanta,Delta Hotels,1.8,52,"Restaurant, Pool",491.91,9,1994,2008,5.34,False,False,True,False
+623,Hotel 623,El Paso,Select,2.5,176,"Spa, Free Breakfast",362.45,4,2004,1998,34.17,True,True,True,True
+624,Hotel 624,Indianapolis,St. Regis,2.9,90,"Restaurant, Pool",151.93,4,2000,2002,4.14,False,False,False,False
+625,Hotel 625,Washington D.C.,Autograph Collection Hotels,3.5,237,"Business Center, Free WiFi",374.74,7,2003,1998,30.21,True,False,False,True
+626,Hotel 626,Virginia Beach,The Luxury Collection,2.5,155,"Business Center, Free WiFi",137.21,2,1984,2004,37.24,True,True,False,True
+627,Hotel 627,San Antonio,Fairfield by Marriott,2.9,63,"Business Center, Free WiFi",111.75,8,1985,1995,11.34,True,False,False,True
+628,Hotel 628,Tucson,Le Méridien,4.0,252,"Pool, Gym, Free WiFi",429.18,6,2022,1988,42.24,True,True,True,True
+629,Hotel 629,Nashville,Gaylord Hotels,1.1,259,"Business Center, Free WiFi",183.9,3,2002,1980,2.49,True,False,False,True
+630,Hotel 630,Philadelphia,Courtyard by Marriott,2.0,295,"Business Center, Free WiFi",251.61,9,1983,2021,42.35,True,False,False,False
+631,Hotel 631,Jacksonville,The Ritz-Carlton,3.9,61,"Restaurant, Pool",489.38,5,2006,1998,23.56,False,False,False,False
+632,Hotel 632,Philadelphia,Fairfield by Marriott,4.6,136,"Spa, Free Breakfast",234.74,8,1997,2012,11.66,True,False,True,False
+633,Hotel 633,San Francisco,Marriott Vacation Club,3.0,61,"Spa, Free Breakfast",218.6,7,2000,2013,7.56,False,False,False,False
+634,Hotel 634,Kansas City,Boutique,3.1,190,"Gym, Free Parking",467.28,8,2007,1995,47.71,False,False,False,True
+635,Hotel 635,San Diego,Design Hotels,1.4,74,"Spa, Free Breakfast",144.3,7,2014,2019,4.56,True,True,True,True
+636,Hotel 636,Charlotte,Moxy Hotels,2.8,94,"Business Center, Free WiFi",403.83,3,2001,1997,10.76,True,False,True,False
+637,Hotel 637,San Antonio,Design Hotels,3.1,292,"Business Center, Free WiFi",495.23,2,2019,2013,18.04,False,False,False,False
+638,Hotel 638,San Diego,JW Marriott,2.0,171,"Business Center, Free WiFi",460.52,7,2002,2004,31.39,True,False,False,True
+639,Hotel 639,Philadelphia,AC Hotels,2.1,196,"Spa, Free Breakfast",360.67,3,1982,1985,27.7,True,True,True,True
+640,Hotel 640,Los Angeles,The Luxury Collection,2.5,104,"Gym, Free Parking",225.62,3,2019,2000,7.16,True,True,False,True
+641,Hotel 641,Boston,Fairfield by Marriott,1.1,287,"Business Center, Free WiFi",201.73,2,1989,1985,15.2,True,True,True,False
+642,Hotel 642,Seattle,W Hotels,2.3,149,"Business Center, Free WiFi",427.7,4,2004,2011,12.7,True,False,False,True
+643,Hotel 643,Virginia Beach,Fairfield by Marriott,1.8,222,"Restaurant, Pool",451.93,8,1987,2020,11.46,True,False,False,True
+644,Hotel 644,El Paso,Longer Stays,2.3,185,"Restaurant, Pool",310.17,1,1990,2022,21.15,True,True,False,False
+645,Hotel 645,New York,AC Hotels,1.5,270,"Business Center, Free WiFi",197.74,1,1984,2018,35.5,False,True,False,False
+646,Hotel 646,Portland,Fairfield by Marriott,4.6,168,"Spa, Free Breakfast",145.18,5,2016,2010,11.66,True,True,False,False
+647,Hotel 647,Seattle,Sheraton,3.4,102,"Business Center, Free WiFi",134.87,5,2017,2021,18.97,False,False,True,True
+648,Hotel 648,Atlanta,Moxy Hotels,3.7,232,"Restaurant, Pool",387.63,1,2008,1989,20.15,False,True,True,True
+649,Hotel 649,Fresno,Autograph Collection Hotels,4.2,81,"Spa, Free Breakfast",268.05,6,1984,2009,48.85,False,False,False,False
+650,Hotel 650,Columbus,Westin,3.0,100,"Pool, Gym, Free WiFi",462.14,1,1988,1997,47.78,False,False,False,True
+651,Hotel 651,Virginia Beach,Select,1.3,93,"Restaurant, Pool",395.87,5,1981,2003,40.21,True,False,False,True
+652,Hotel 652,Philadelphia,Tribute Portfolio,3.1,131,"Spa, Free Breakfast",176.5,9,1980,1988,12.84,False,True,True,True
+653,Hotel 653,Washington D.C.,Residence Inn,3.3,247,"Gym, Free Parking",345.51,5,2019,2010,4.33,False,False,True,False
+654,Hotel 654,Oklahoma City,Longer Stays,4.0,195,"Gym, Free Parking",274.2,6,2009,1994,16.53,False,True,True,False
+655,Hotel 655,Fort Worth,Boutique,2.7,260,"Restaurant, Pool",330.9,8,1990,1983,14.07,False,True,True,True
+656,Hotel 656,Kansas City,TownePlace Suites,1.5,199,"Restaurant, Pool",395.23,1,2007,2019,25.79,False,True,True,True
+657,Hotel 657,Atlanta,W Hotels,2.1,86,"Restaurant, Pool",422.48,2,1991,1988,39.11,True,True,True,True
+658,Hotel 658,Portland,Delta Hotels,2.5,145,"Pool, Gym, Free WiFi",437.49,9,2018,1988,43.06,True,False,True,True
+659,Hotel 659,Houston,Courtyard by Marriott,3.6,105,"Pool, Gym, Free WiFi",201.59,3,2005,2005,42.4,False,False,True,False
+660,Hotel 660,New York,W Hotels,3.3,154,"Restaurant, Pool",112.45,6,1992,1983,18.62,True,False,False,False
+661,Hotel 661,Jacksonville,Marriott Executive Apartments,2.4,108,"Business Center, Free WiFi",395.72,5,1987,1996,34.67,True,False,True,True
+662,Hotel 662,Charlotte,Longer Stays,4.9,180,"Gym, Free Parking",142.54,2,2007,1995,16.33,False,True,True,True
+663,Hotel 663,Detroit,Marriott Hotels,3.4,205,"Business Center, Free WiFi",225.97,7,2009,1994,3.98,False,True,True,False
+664,Hotel 664,Washington D.C.,Delta Hotels,1.9,251,"Restaurant, Pool",101.53,4,1988,2014,35.38,False,True,True,True
+665,Hotel 665,Oklahoma City,AC Hotels,1.4,292,"Gym, Free Parking",372.67,1,2018,1984,1.48,True,True,False,False
+666,Hotel 666,Phoenix,Design Hotels,1.6,84,"Spa, Free Breakfast",166.85,4,2010,1984,21.05,False,False,True,True
+667,Hotel 667,Boston,Autograph Collection Hotels,2.0,238,"Pool, Gym, Free WiFi",362.11,6,2000,1999,17.14,True,True,False,False
+668,Hotel 668,Austin,Element by Westin,1.6,142,"Pool, Gym, Free WiFi",496.7,7,2013,1994,34.98,True,False,False,True
+669,Hotel 669,El Paso,Premium,1.7,231,"Restaurant, Pool",129.07,7,2010,1997,38.55,True,True,False,True
+670,Hotel 670,Boston,SpringHill Suites,2.1,240,"Restaurant, Pool",130.83,7,2004,1981,15.9,False,True,True,False
+671,Hotel 671,Austin,Luxury,1.7,256,"Business Center, Free WiFi",236.15,3,1991,2008,40.77,True,True,True,False
+672,Hotel 672,San Francisco,The Ritz-Carlton,4.6,146,"Pool, Gym, Free WiFi",446.55,6,1980,1992,15.4,False,True,True,True
+673,Hotel 673,Long Beach,Select,1.3,184,"Pool, Gym, Free WiFi",186.21,8,2001,1983,22.87,False,False,False,True
+674,Hotel 674,Atlanta,Marriott Executive Apartments,3.1,125,"Spa, Free Breakfast",244.15,4,2019,2021,36.62,False,False,False,False
+675,Hotel 675,Las Vegas,St. Regis,2.6,98,"Gym, Free Parking",127.4,8,2016,1989,34.95,False,False,False,False
+676,Hotel 676,Philadelphia,Courtyard by Marriott,4.9,143,"Business Center, Free WiFi",405.26,2,1980,2010,49.38,False,False,False,True
+677,Hotel 677,Austin,Sheraton,1.4,262,"Business Center, Free WiFi",263.32,10,1980,2020,12.03,True,True,True,True
+678,Hotel 678,Virginia Beach,Luxury,2.6,208,"Business Center, Free WiFi",403.7,9,2021,1987,33.45,True,True,True,False
+679,Hotel 679,Philadelphia,Delta Hotels,4.9,235,"Pool, Gym, Free WiFi",461.44,9,2021,1982,30.87,True,False,True,False
+680,Hotel 680,Seattle,Westin,4.5,238,"Business Center, Free WiFi",193.11,8,2000,1988,45.84,True,False,False,False
+681,Hotel 681,Chicago,W Hotels,4.3,73,"Business Center, Free WiFi",422.96,10,1994,2009,8.66,True,True,False,False
+682,Hotel 682,Dallas,Fairfield by Marriott,2.0,197,"Restaurant, Pool",123.64,10,1996,1990,37.84,False,True,True,False
+683,Hotel 683,Chicago,Residence Inn,1.7,86,"Business Center, Free WiFi",459.54,1,2001,2014,28.85,False,False,True,True
+684,Hotel 684,Memphis,Design Hotels,3.7,53,"Gym, Free Parking",360.31,2,2017,2016,14.46,True,False,False,True
+685,Hotel 685,New York,Moxy Hotels,4.7,269,"Spa, Free Breakfast",449.69,6,2014,2021,24.25,True,False,True,False
+686,Hotel 686,Albuquerque,Marriott Hotels,3.2,157,"Pool, Gym, Free WiFi",100.08,10,1995,1992,17.36,True,True,True,True
+687,Hotel 687,Chicago,Autograph Collection Hotels,3.3,175,"Restaurant, Pool",167.63,5,1987,2015,29.39,False,False,False,True
+688,Hotel 688,Jacksonville,W Hotels,2.1,69,"Spa, Free Breakfast",255.9,9,1996,1992,44.56,False,False,False,False
+689,Hotel 689,Tucson,Design Hotels,4.1,237,"Gym, Free Parking",251.8,5,1996,1991,28.9,False,False,False,True
+690,Hotel 690,Albuquerque,Delta Hotels,1.7,201,"Gym, Free Parking",190.69,2,2005,2016,31.95,True,False,True,True
+691,Hotel 691,Philadelphia,Premium,2.3,99,"Pool, Gym, Free WiFi",252.64,10,1992,1989,26.42,True,False,False,True
+692,Hotel 692,Baltimore,Marriott Hotels,2.7,226,"Gym, Free Parking",151.54,4,1996,1988,3.51,True,True,True,False
+693,Hotel 693,Houston,Courtyard by Marriott,3.0,228,"Pool, Gym, Free WiFi",265.1,9,2017,1986,12.41,True,False,True,False
+694,Hotel 694,Washington D.C.,Sheraton,2.0,145,"Gym, Free Parking",420.94,1,1996,1981,25.11,False,True,False,True
+695,Hotel 695,San Antonio,Moxy Hotels,1.5,154,"Spa, Free Breakfast",291.63,1,1993,2002,16.2,True,False,True,True
+696,Hotel 696,Los Angeles,The Luxury Collection,3.4,213,"Business Center, Free WiFi",107.2,7,1985,2018,9.91,True,False,False,True
+697,Hotel 697,Sacramento,Marriott Vacation Club,2.2,299,"Spa, Free Breakfast",268.58,3,2014,2019,25.7,True,False,False,True
+698,Hotel 698,Long Beach,Moxy Hotels,3.3,166,"Restaurant, Pool",110.87,10,1993,2018,16.82,False,True,True,True
+699,Hotel 699,Austin,Element by Westin,1.6,147,"Spa, Free Breakfast",486.5,2,1987,2000,13.65,False,True,True,True
+700,Hotel 700,Long Beach,Sheraton,2.9,277,"Spa, Free Breakfast",150.98,9,1994,2002,23.74,True,True,False,False
+701,Hotel 701,Detroit,Marriott Hotels,3.1,115,"Pool, Gym, Free WiFi",383.08,3,2006,2008,7.53,False,False,False,True
+702,Hotel 702,San Antonio,Fairfield by Marriott,1.2,128,"Business Center, Free WiFi",489.11,2,1992,1993,46.46,False,False,False,True
+703,Hotel 703,San Jose,Fairfield by Marriott,2.3,211,"Gym, Free Parking",430.42,8,2010,2005,43.52,False,True,False,False
+704,Hotel 704,Virginia Beach,Boutique,1.5,213,"Restaurant, Pool",379.73,10,2014,1984,35.67,False,True,False,True
+705,Hotel 705,Jacksonville,TownePlace Suites,1.3,55,"Pool, Gym, Free WiFi",435.78,6,1985,2010,6.2,False,False,False,True
+706,Hotel 706,Long Beach,Sheraton,5.0,88,"Gym, Free Parking",492.72,6,1984,2004,39.02,True,True,True,True
+707,Hotel 707,San Antonio,Autograph Collection Hotels,2.3,219,"Pool, Gym, Free WiFi",348.54,10,2001,2010,40.59,True,False,True,True
+708,Hotel 708,Fort Worth,Le Méridien,4.2,292,"Business Center, Free WiFi",323.67,7,2002,1999,38.62,True,True,True,False
+709,Hotel 709,Fresno,Fairfield by Marriott,2.0,164,"Business Center, Free WiFi",351.3,7,2004,1996,6.58,False,True,True,True
+710,Hotel 710,Seattle,Moxy Hotels,3.7,235,"Gym, Free Parking",313.07,6,2013,1981,32.55,False,True,False,False
+711,Hotel 711,Jacksonville,W Hotels,4.0,295,"Pool, Gym, Free WiFi",354.04,4,2005,2004,41.88,False,False,True,True
+712,Hotel 712,Fort Worth,Premium,3.4,174,"Gym, Free Parking",279.94,9,1984,1992,29.29,False,False,True,True
+713,Hotel 713,Mesa,Autograph Collection Hotels,2.9,61,"Restaurant, Pool",187.38,6,2005,2018,32.67,True,True,False,False
+714,Hotel 714,Indianapolis,AC Hotels,2.6,180,"Restaurant, Pool",148.1,4,1999,2007,23.46,True,False,True,True
+715,Hotel 715,Las Vegas,Courtyard by Marriott,2.4,286,"Pool, Gym, Free WiFi",127.34,3,1985,2021,26.91,True,False,False,False
+716,Hotel 716,Milwaukee,Select,4.7,67,"Business Center, Free WiFi",205.33,4,1985,1985,2.68,True,False,False,False
+717,Hotel 717,San Antonio,Marriott Vacation Club,4.3,89,"Spa, Free Breakfast",118.45,3,1997,1982,32.31,True,False,False,False
+718,Hotel 718,Las Vegas,W Hotels,4.9,70,"Gym, Free Parking",326.87,2,1983,2014,4.99,True,True,False,True
+719,Hotel 719,Los Angeles,St. Regis,1.5,192,"Gym, Free Parking",213.53,5,1996,1997,22.32,False,False,False,True
+720,Hotel 720,Columbus,TownePlace Suites,3.9,274,"Business Center, Free WiFi",429.81,2,1993,1990,15.34,False,False,True,True
+721,Hotel 721,Austin,Courtyard by Marriott,4.8,148,"Spa, Free Breakfast",129.7,6,1993,1999,27.73,True,True,True,True
+722,Hotel 722,Houston,JW Marriott,1.7,75,"Restaurant, Pool",190.54,3,1992,1984,7.54,False,False,True,False
+723,Hotel 723,Jacksonville,The Luxury Collection,1.3,57,"Gym, Free Parking",392.1,6,1986,1998,34.89,True,False,False,True
+724,Hotel 724,Baltimore,Longer Stays,4.0,149,"Business Center, Free WiFi",339.52,10,1994,2001,39.96,True,False,True,True
+725,Hotel 725,Milwaukee,Westin,3.3,289,"Gym, Free Parking",125.8,9,1998,1998,9.0,False,True,True,False
+726,Hotel 726,Kansas City,St. Regis,4.4,271,"Gym, Free Parking",450.9,1,2022,1995,6.11,True,True,True,False
+727,Hotel 727,Phoenix,SpringHill Suites,1.6,136,"Gym, Free Parking",450.9,6,2014,2003,8.13,True,False,True,True
+728,Hotel 728,Las Vegas,Premium,4.2,91,"Business Center, Free WiFi",232.16,9,1996,2020,43.98,True,False,False,False
+729,Hotel 729,Nashville,Moxy Hotels,1.8,221,"Restaurant, Pool",236.16,4,2014,1983,26.88,False,True,True,False
+730,Hotel 730,Portland,Residence Inn,1.7,63,"Business Center, Free WiFi",495.61,2,1998,1994,23.9,False,True,False,False
+731,Hotel 731,Baltimore,Westin,1.7,127,"Restaurant, Pool",350.47,4,1999,2004,6.23,False,True,False,False
+732,Hotel 732,Chicago,The Luxury Collection,4.3,51,"Restaurant, Pool",312.53,1,2015,2014,32.83,False,False,True,False
+733,Hotel 733,El Paso,Marriott Vacation Club,3.7,168,"Spa, Free Breakfast",435.26,3,2014,1993,43.53,True,False,False,True
+734,Hotel 734,Phoenix,Le Méridien,3.1,86,"Restaurant, Pool",214.12,10,2011,1998,41.58,False,True,False,True
+735,Hotel 735,Detroit,Marriott Vacation Club,2.4,118,"Gym, Free Parking",271.67,9,2019,2017,31.68,False,False,False,True
+736,Hotel 736,Dallas,Marriott Executive Apartments,4.5,215,"Business Center, Free WiFi",207.11,10,2003,2015,4.69,False,False,False,True
+737,Hotel 737,Mesa,Marriott Executive Apartments,2.6,286,"Gym, Free Parking",415.66,5,1996,1986,6.51,True,False,False,True
+738,Hotel 738,Atlanta,Tribute Portfolio,4.3,90,"Pool, Gym, Free WiFi",329.34,6,1986,2009,3.42,False,False,False,True
+739,Hotel 739,Houston,Westin,2.8,111,"Restaurant, Pool",363.53,3,2022,1998,13.62,False,False,False,True
+740,Hotel 740,Memphis,Autograph Collection Hotels,2.5,295,"Restaurant, Pool",200.92,5,1980,2004,7.65,True,False,True,False
+741,Hotel 741,Albuquerque,SpringHill Suites,2.9,109,"Gym, Free Parking",188.09,8,2014,1995,13.74,True,False,True,True
+742,Hotel 742,Boston,Autograph Collection Hotels,2.2,174,"Gym, Free Parking",295.35,6,2011,2019,19.87,True,True,False,True
+743,Hotel 743,Milwaukee,Courtyard by Marriott,4.0,160,"Restaurant, Pool",395.03,4,2015,1987,47.21,True,True,False,True
+744,Hotel 744,San Francisco,Longer Stays,3.0,63,"Gym, Free Parking",310.1,2,1992,1997,30.91,False,True,True,False
+745,Hotel 745,Oklahoma City,Marriott Executive Apartments,1.9,297,"Restaurant, Pool",113.06,9,1985,2007,41.91,True,True,True,True
+746,Hotel 746,San Jose,The Ritz-Carlton,4.6,280,"Business Center, Free WiFi",447.42,1,1993,1995,35.81,False,True,True,True
+747,Hotel 747,Las Vegas,Fairfield by Marriott,2.5,266,"Restaurant, Pool",125.87,1,2016,1998,6.51,False,True,True,False
+748,Hotel 748,Austin,Element by Westin,3.2,133,"Pool, Gym, Free WiFi",482.33,4,1994,2021,37.06,False,True,False,True
+749,Hotel 749,Baltimore,Courtyard by Marriott,4.6,179,"Pool, Gym, Free WiFi",110.06,7,1983,1996,14.48,False,True,False,True
+750,Hotel 750,Louisville,Select,3.5,280,"Gym, Free Parking",377.78,1,2019,1992,32.32,False,True,True,False
+751,Hotel 751,Washington D.C.,Sheraton,1.5,119,"Gym, Free Parking",132.88,9,1995,1986,17.71,True,False,True,True
+752,Hotel 752,Baltimore,Autograph Collection Hotels,4.8,194,"Gym, Free Parking",464.27,4,2007,2006,49.89,False,False,True,False
+753,Hotel 753,Boston,Courtyard by Marriott,3.5,172,"Gym, Free Parking",285.77,3,1995,1989,13.91,False,True,True,True
+754,Hotel 754,San Diego,Marriott Vacation Club,2.3,138,"Business Center, Free WiFi",155.01,1,1983,2013,14.68,False,False,False,True
+755,Hotel 755,Milwaukee,W Hotels,1.6,298,"Gym, Free Parking",236.33,10,2005,2015,46.6,True,False,True,True
+756,Hotel 756,Houston,Boutique,4.2,77,"Gym, Free Parking",165.93,4,2007,2004,2.21,False,True,True,False
+757,Hotel 757,Milwaukee,Westin,3.5,115,"Business Center, Free WiFi",168.23,9,2011,1985,35.14,False,True,True,False
+758,Hotel 758,Los Angeles,Design Hotels,3.1,212,"Restaurant, Pool",479.24,10,1981,2003,36.54,True,True,False,False
+759,Hotel 759,Las Vegas,SpringHill Suites,4.6,278,"Gym, Free Parking",278.1,6,2010,1997,41.98,False,False,False,True
+760,Hotel 760,Boston,Autograph Collection Hotels,4.2,54,"Restaurant, Pool",415.52,6,1982,2002,48.75,False,False,False,True
+761,Hotel 761,Fort Worth,Longer Stays,1.6,242,"Pool, Gym, Free WiFi",355.84,1,1987,1985,48.8,True,True,True,False
+762,Hotel 762,Jacksonville,JW Marriott,2.2,217,"Restaurant, Pool",370.57,10,2003,2008,4.2,False,False,True,False
+763,Hotel 763,Columbus,Marriott Vacation Club,2.0,253,"Spa, Free Breakfast",152.68,2,1994,2004,41.27,False,False,True,True
+764,Hotel 764,Los Angeles,Tribute Portfolio,4.0,233,"Spa, Free Breakfast",193.67,6,2022,1996,32.67,False,False,False,True
+765,Hotel 765,Chicago,Moxy Hotels,1.1,213,"Restaurant, Pool",414.7,2,2010,2003,32.72,False,True,False,True
+766,Hotel 766,Chicago,Tribute Portfolio,3.3,94,"Gym, Free Parking",488.31,3,1988,1990,7.29,False,False,True,True
+767,Hotel 767,Dallas,Tribute Portfolio,4.0,200,"Pool, Gym, Free WiFi",205.07,4,2018,2005,32.86,True,False,True,False
+768,Hotel 768,New York,SpringHill Suites,4.5,96,"Restaurant, Pool",208.63,5,1981,2013,49.14,True,False,False,True
+769,Hotel 769,Fort Worth,Gaylord Hotels,2.4,80,"Business Center, Free WiFi",289.16,9,1987,2007,45.68,True,False,True,True
+770,Hotel 770,Phoenix,Longer Stays,4.3,188,"Restaurant, Pool",493.54,4,1986,1982,22.52,False,False,True,True
+771,Hotel 771,Memphis,Boutique,1.4,59,"Business Center, Free WiFi",207.58,9,2018,1990,2.96,False,False,True,True
+772,Hotel 772,Kansas City,St. Regis,4.4,244,"Spa, Free Breakfast",262.79,10,2021,2017,18.75,False,False,False,True
+773,Hotel 773,Los Angeles,Longer Stays,1.5,167,"Pool, Gym, Free WiFi",456.59,3,1995,1993,41.49,True,True,True,True
+774,Hotel 774,Albuquerque,AC Hotels,2.6,63,"Business Center, Free WiFi",101.17,8,2014,2005,35.37,False,True,True,True
+775,Hotel 775,El Paso,The Luxury Collection,4.2,129,"Gym, Free Parking",115.91,1,2009,2000,23.51,False,False,True,False
+776,Hotel 776,El Paso,Select,1.6,251,"Business Center, Free WiFi",341.63,9,1989,2018,3.7,False,True,True,False
+777,Hotel 777,Atlanta,Longer Stays,1.9,142,"Business Center, Free WiFi",462.95,9,2017,2009,21.92,True,False,False,False
+778,Hotel 778,Louisville,TownePlace Suites,3.9,59,"Gym, Free Parking",195.54,10,1997,1987,23.98,True,False,False,True
+779,Hotel 779,Portland,Design Hotels,3.9,125,"Restaurant, Pool",287.86,2,1984,1999,46.5,False,False,False,False
+780,Hotel 780,Phoenix,Longer Stays,3.6,143,"Pool, Gym, Free WiFi",280.19,4,2008,2011,32.41,False,True,True,True
+781,Hotel 781,Philadelphia,Autograph Collection Hotels,3.8,154,"Pool, Gym, Free WiFi",289.19,8,2018,2001,16.27,False,False,False,True
+782,Hotel 782,Charlotte,SpringHill Suites,3.2,50,"Business Center, Free WiFi",349.01,7,2013,1986,26.74,True,False,True,True
+783,Hotel 783,Phoenix,Courtyard by Marriott,2.0,182,"Pool, Gym, Free WiFi",287.9,1,2022,1988,4.24,True,True,False,True
+784,Hotel 784,Louisville,Design Hotels,2.4,69,"Gym, Free Parking",278.99,5,2002,1980,48.66,True,True,True,False
+785,Hotel 785,Long Beach,The Ritz-Carlton,1.7,57,"Business Center, Free WiFi",289.72,7,1984,2008,18.64,False,False,False,True
+786,Hotel 786,Memphis,Fairfield by Marriott,4.6,220,"Business Center, Free WiFi",336.35,4,2009,1987,24.42,True,True,False,True
+787,Hotel 787,Tucson,Marriott Vacation Club,3.3,253,"Gym, Free Parking",314.8,1,1985,1983,18.41,False,True,False,False
+788,Hotel 788,New York,JW Marriott,2.6,50,"Restaurant, Pool",441.65,9,1983,2014,34.44,False,False,True,False
+789,Hotel 789,Austin,Luxury,2.8,106,"Pool, Gym, Free WiFi",119.8,5,2008,1982,33.45,True,False,True,False
+790,Hotel 790,Austin,Le Méridien,4.8,113,"Gym, Free Parking",433.33,2,2002,2019,36.05,False,False,True,True
+791,Hotel 791,Sacramento,Autograph Collection Hotels,1.6,167,"Spa, Free Breakfast",437.57,8,1985,1986,14.14,True,True,False,False
+792,Hotel 792,Virginia Beach,Fairfield by Marriott,3.3,261,"Gym, Free Parking",213.96,2,2011,2006,16.47,False,True,True,True
+793,Hotel 793,Sacramento,Marriott Executive Apartments,3.0,77,"Gym, Free Parking",285.14,3,2021,1980,7.14,False,True,True,True
+794,Hotel 794,Phoenix,Le Méridien,3.4,170,"Business Center, Free WiFi",275.42,10,1997,2006,33.12,True,False,True,False
+795,Hotel 795,San Diego,Design Hotels,1.1,156,"Pool, Gym, Free WiFi",187.4,1,1994,1995,2.95,False,True,True,False
+796,Hotel 796,Kansas City,Delta Hotels,4.5,214,"Gym, Free Parking",258.72,2,2019,2017,30.29,False,True,True,False
+797,Hotel 797,Dallas,Fairfield by Marriott,4.7,224,"Spa, Free Breakfast",117.76,7,2011,1986,43.62,False,False,True,True
+798,Hotel 798,Chicago,W Hotels,3.3,278,"Pool, Gym, Free WiFi",211.13,10,1988,2002,44.65,False,False,False,True
+799,Hotel 799,San Antonio,Gaylord Hotels,3.8,253,"Restaurant, Pool",426.67,2,2016,2020,23.0,False,False,False,True
+800,Hotel 800,Nashville,Marriott Vacation Club,4.7,214,"Gym, Free Parking",213.82,6,1989,1990,23.51,False,True,True,True
+801,Hotel 801,Denver,Element by Westin,3.8,98,"Business Center, Free WiFi",427.28,3,1999,2021,4.77,False,False,False,True
+802,Hotel 802,Austin,W Hotels,1.6,290,"Restaurant, Pool",312.64,4,1985,2012,33.87,False,True,False,True
+803,Hotel 803,Chicago,Tribute Portfolio,3.3,169,"Restaurant, Pool",451.95,8,1982,2015,41.24,True,True,True,False
+804,Hotel 804,Fresno,Marriott Vacation Club,3.4,93,"Pool, Gym, Free WiFi",329.91,3,2021,2016,12.99,True,False,True,True
+805,Hotel 805,Milwaukee,Marriott Vacation Club,2.7,105,"Business Center, Free WiFi",111.87,10,1990,2020,21.64,False,False,False,False
+806,Hotel 806,Denver,St. Regis,3.9,205,"Spa, Free Breakfast",370.17,6,2022,1996,42.1,False,False,True,False
+807,Hotel 807,Atlanta,The Luxury Collection,4.7,160,"Spa, Free Breakfast",117.94,1,1996,2014,43.98,True,False,False,False
+808,Hotel 808,San Antonio,Gaylord Hotels,4.7,256,"Pool, Gym, Free WiFi",280.24,7,2011,1984,12.92,False,False,False,False
+809,Hotel 809,Houston,Select,2.8,183,"Pool, Gym, Free WiFi",471.77,8,1983,2011,27.98,True,True,False,False
+810,Hotel 810,Fort Worth,Courtyard by Marriott,1.5,157,"Business Center, Free WiFi",166.08,8,1983,1982,10.43,True,True,True,True
+811,Hotel 811,Indianapolis,Marriott Executive Apartments,4.9,238,"Restaurant, Pool",255.95,3,1996,2014,5.99,True,True,False,True
+812,Hotel 812,San Francisco,Residence Inn,4.4,197,"Business Center, Free WiFi",391.94,10,2020,1993,45.64,False,False,True,True
+813,Hotel 813,Baltimore,The Luxury Collection,1.5,163,"Spa, Free Breakfast",452.9,1,1998,2010,41.2,False,True,True,True
+814,Hotel 814,Charlotte,TownePlace Suites,4.7,127,"Spa, Free Breakfast",368.38,9,1984,2010,38.24,False,False,True,False
+815,Hotel 815,New York,Marriott Vacation Club,4.5,179,"Restaurant, Pool",203.27,6,2011,1996,3.39,True,False,True,False
+816,Hotel 816,Jacksonville,Premium,3.1,250,"Restaurant, Pool",369.84,9,2001,2003,42.34,True,True,True,False
+817,Hotel 817,Austin,Courtyard by Marriott,3.4,86,"Spa, Free Breakfast",218.69,7,1985,2002,22.46,True,True,False,True
+818,Hotel 818,Albuquerque,W Hotels,2.6,69,"Pool, Gym, Free WiFi",387.37,1,2014,1997,17.78,False,False,True,True
+819,Hotel 819,Mesa,Marriott Vacation Club,1.2,75,"Gym, Free Parking",481.61,1,2001,1993,27.78,True,True,True,True
+820,Hotel 820,Sacramento,Element by Westin,2.3,78,"Business Center, Free WiFi",388.56,6,1980,1994,5.48,True,False,True,True
+821,Hotel 821,Boston,Tribute Portfolio,4.2,50,"Spa, Free Breakfast",445.15,5,1999,1994,38.08,False,True,True,False
+822,Hotel 822,Jacksonville,Design Hotels,1.0,168,"Restaurant, Pool",100.84,9,2001,1985,29.54,True,True,True,False
+823,Hotel 823,Detroit,Luxury,2.3,84,"Gym, Free Parking",387.03,2,1990,2006,10.14,True,True,False,True
+824,Hotel 824,San Diego,AC Hotels,2.6,247,"Spa, Free Breakfast",431.84,8,1992,1994,10.22,False,True,True,True
+825,Hotel 825,Memphis,The Luxury Collection,3.1,278,"Gym, Free Parking",116.22,5,2021,2015,10.03,False,True,True,False
+826,Hotel 826,Milwaukee,Marriott Vacation Club,4.7,294,"Restaurant, Pool",448.64,2,1982,1987,3.79,True,False,False,False
+827,Hotel 827,Indianapolis,St. Regis,2.4,108,"Restaurant, Pool",202.68,10,1988,1994,29.8,False,True,True,False
+828,Hotel 828,Dallas,The Ritz-Carlton,2.4,118,"Business Center, Free WiFi",366.12,6,1991,1982,42.18,True,True,False,False
+829,Hotel 829,Denver,Premium,4.0,210,"Restaurant, Pool",420.14,10,2002,1992,1.86,False,True,False,True
+830,Hotel 830,Albuquerque,Fairfield by Marriott,2.8,290,"Spa, Free Breakfast",365.07,8,1993,2020,3.4,True,False,False,False
+831,Hotel 831,Baltimore,Fairfield by Marriott,1.9,228,"Gym, Free Parking",136.91,4,2012,2013,29.07,False,False,False,False
+832,Hotel 832,Fort Worth,Marriott Vacation Club,2.8,255,"Restaurant, Pool",338.53,2,1997,2003,41.16,True,False,True,False
+833,Hotel 833,Indianapolis,Westin,1.6,61,"Restaurant, Pool",319.83,5,2020,2019,17.01,False,False,True,False
+834,Hotel 834,Sacramento,Le Méridien,1.7,283,"Business Center, Free WiFi",460.13,2,1988,2011,18.13,False,False,False,True
+835,Hotel 835,Phoenix,Gaylord Hotels,3.0,69,"Restaurant, Pool",261.7,2,2002,2011,30.22,False,True,False,True
+836,Hotel 836,Boston,Sheraton,2.7,230,"Pool, Gym, Free WiFi",228.43,6,1989,2009,14.44,False,True,True,True
+837,Hotel 837,Las Vegas,Boutique,4.7,291,"Business Center, Free WiFi",399.94,10,1998,1992,2.3,False,True,False,True
+838,Hotel 838,Charlotte,Element by Westin,2.4,265,"Restaurant, Pool",265.07,9,1984,1980,37.03,False,False,False,True
+839,Hotel 839,Virginia Beach,Sheraton,3.3,92,"Restaurant, Pool",358.44,4,2002,2013,31.66,False,False,False,True
+840,Hotel 840,Denver,Longer Stays,3.5,175,"Gym, Free Parking",358.58,6,2009,1994,29.46,True,True,True,False
+841,Hotel 841,Fresno,SpringHill Suites,1.1,275,"Spa, Free Breakfast",455.22,7,2004,1993,37.34,True,False,False,False
+842,Hotel 842,Dallas,Luxury,3.7,266,"Spa, Free Breakfast",339.48,6,2007,2008,34.09,False,False,True,False
+843,Hotel 843,Nashville,Luxury,1.7,99,"Restaurant, Pool",300.86,8,2013,2013,11.09,False,False,True,False
+844,Hotel 844,San Jose,Le Méridien,4.8,78,"Restaurant, Pool",155.55,4,2004,1997,18.27,True,True,True,True
+845,Hotel 845,Milwaukee,TownePlace Suites,1.6,234,"Gym, Free Parking",146.3,1,1989,1986,7.18,True,True,False,False
+846,Hotel 846,Phoenix,Marriott Executive Apartments,2.7,88,"Gym, Free Parking",161.73,7,1993,2008,7.36,False,False,False,True
+847,Hotel 847,Kansas City,Moxy Hotels,1.3,272,"Pool, Gym, Free WiFi",168.74,3,2021,2010,34.13,True,False,True,False
+848,Hotel 848,El Paso,Fairfield by Marriott,5.0,233,"Gym, Free Parking",355.15,6,2009,2004,43.07,True,False,True,False
+849,Hotel 849,El Paso,St. Regis,3.0,288,"Gym, Free Parking",396.39,2,2020,2017,48.17,False,False,True,False
+850,Hotel 850,Virginia Beach,Sheraton,3.4,220,"Gym, Free Parking",312.0,9,2004,1993,31.79,False,True,False,True
+851,Hotel 851,Fresno,Marriott Vacation Club,1.3,227,"Spa, Free Breakfast",431.61,1,1993,1987,10.02,False,False,False,False
+852,Hotel 852,San Antonio,Premium,4.0,200,"Business Center, Free WiFi",496.51,6,2014,2006,6.18,True,True,True,True
+853,Hotel 853,Fresno,Le Méridien,1.8,221,"Spa, Free Breakfast",428.01,6,2013,1981,40.83,False,True,True,True
+854,Hotel 854,Dallas,Autograph Collection Hotels,4.6,87,"Pool, Gym, Free WiFi",377.95,5,1989,1996,29.36,False,True,False,False
+855,Hotel 855,Austin,Autograph Collection Hotels,1.8,133,"Gym, Free Parking",313.0,5,2014,2016,31.3,True,False,True,True
+856,Hotel 856,Dallas,Moxy Hotels,1.8,200,"Gym, Free Parking",279.54,1,1990,1993,39.29,False,True,False,True
+857,Hotel 857,El Paso,AC Hotels,1.1,177,"Pool, Gym, Free WiFi",133.76,10,1990,2004,35.46,True,True,False,False
+858,Hotel 858,Seattle,AC Hotels,2.9,175,"Restaurant, Pool",259.75,5,2000,2009,41.89,True,False,True,False
+859,Hotel 859,Houston,Longer Stays,3.3,94,"Restaurant, Pool",464.05,2,2000,2008,3.75,True,False,True,False
+860,Hotel 860,Chicago,Marriott Vacation Club,1.3,101,"Pool, Gym, Free WiFi",423.21,7,2001,1999,37.63,True,False,False,False
+861,Hotel 861,El Paso,Residence Inn,4.1,129,"Spa, Free Breakfast",186.42,3,1986,2000,42.69,True,True,False,False
+862,Hotel 862,Chicago,Fairfield by Marriott,2.8,227,"Spa, Free Breakfast",286.64,4,1996,2001,15.02,True,False,False,False
+863,Hotel 863,Philadelphia,Le Méridien,3.1,283,"Gym, Free Parking",426.69,3,1981,2014,32.38,False,True,False,True
+864,Hotel 864,Memphis,Longer Stays,2.8,173,"Gym, Free Parking",126.95,3,1991,2016,16.39,False,True,False,False
+865,Hotel 865,Louisville,Design Hotels,2.6,168,"Spa, Free Breakfast",254.96,4,2021,1995,47.94,False,False,True,False
+866,Hotel 866,Oklahoma City,Premium,3.2,57,"Gym, Free Parking",440.74,5,1997,2022,2.64,True,True,False,True
+867,Hotel 867,Kansas City,Moxy Hotels,1.6,291,"Gym, Free Parking",261.56,1,1990,1996,29.41,False,True,False,False
+868,Hotel 868,Washington D.C.,Tribute Portfolio,1.7,134,"Business Center, Free WiFi",131.05,4,1995,1995,9.16,True,True,False,True
+869,Hotel 869,Chicago,Residence Inn,4.4,178,"Business Center, Free WiFi",317.01,8,1997,1981,35.9,False,True,True,False
+870,Hotel 870,Memphis,TownePlace Suites,4.8,296,"Business Center, Free WiFi",444.7,10,2014,1983,9.62,True,False,True,False
+871,Hotel 871,Las Vegas,AC Hotels,2.5,57,"Gym, Free Parking",336.11,7,2005,2000,12.53,False,True,False,True
+872,Hotel 872,Philadelphia,Residence Inn,2.1,206,"Gym, Free Parking",190.51,9,1995,2018,25.22,True,False,False,False
+873,Hotel 873,San Antonio,Westin,3.6,145,"Spa, Free Breakfast",253.7,5,1985,2013,45.83,False,True,True,True
+874,Hotel 874,Phoenix,Design Hotels,2.6,151,"Pool, Gym, Free WiFi",280.05,10,2022,2009,11.37,True,True,True,False
+875,Hotel 875,Dallas,Sheraton,1.1,54,"Spa, Free Breakfast",331.71,4,2021,1985,8.07,False,False,True,False
+876,Hotel 876,San Diego,TownePlace Suites,1.6,288,"Spa, Free Breakfast",403.74,8,1991,1996,38.19,True,True,True,True
+877,Hotel 877,New York,Tribute Portfolio,3.9,135,"Pool, Gym, Free WiFi",139.55,9,1992,2018,25.53,False,True,False,False
+878,Hotel 878,Kansas City,Premium,3.6,224,"Business Center, Free WiFi",455.86,7,1983,2004,45.68,False,True,True,False
+879,Hotel 879,San Diego,Fairfield by Marriott,1.1,83,"Spa, Free Breakfast",104.92,7,2018,1984,8.18,False,True,False,True
+880,Hotel 880,Fort Worth,Gaylord Hotels,1.9,242,"Gym, Free Parking",248.02,5,1981,1984,32.65,True,True,False,False
+881,Hotel 881,Houston,The Luxury Collection,1.9,104,"Spa, Free Breakfast",110.97,4,2005,1999,12.41,True,True,True,True
+882,Hotel 882,Sacramento,TownePlace Suites,3.7,168,"Restaurant, Pool",257.19,10,2006,1995,8.68,True,False,True,False
+883,Hotel 883,Houston,The Ritz-Carlton,1.1,267,"Restaurant, Pool",310.33,1,2006,2020,34.49,True,False,True,True
+884,Hotel 884,San Antonio,Delta Hotels,1.4,220,"Pool, Gym, Free WiFi",304.67,10,1994,2016,30.09,True,False,True,False
+885,Hotel 885,Columbus,Tribute Portfolio,4.2,251,"Restaurant, Pool",166.25,10,1987,2019,37.99,False,True,False,True
+886,Hotel 886,Houston,Luxury,1.7,207,"Restaurant, Pool",358.3,7,1986,1988,16.16,True,True,False,True
+887,Hotel 887,Austin,Longer Stays,3.6,163,"Gym, Free Parking",117.91,1,2019,1984,22.95,False,True,False,False
+888,Hotel 888,Portland,Residence Inn,2.0,259,"Pool, Gym, Free WiFi",404.76,1,1991,2021,20.87,False,False,True,False
+889,Hotel 889,Seattle,Autograph Collection Hotels,1.4,194,"Pool, Gym, Free WiFi",478.66,5,1992,1981,49.22,True,True,False,True
+890,Hotel 890,Baltimore,Premium,2.0,75,"Business Center, Free WiFi",235.91,9,2022,1988,15.32,False,False,True,False
+891,Hotel 891,Tucson,Element by Westin,3.9,185,"Pool, Gym, Free WiFi",306.9,6,1996,2022,15.45,True,True,False,True
+892,Hotel 892,Oklahoma City,Courtyard by Marriott,4.4,96,"Pool, Gym, Free WiFi",251.56,3,1996,2015,18.37,True,True,True,False
+893,Hotel 893,Denver,Element by Westin,4.3,281,"Restaurant, Pool",102.68,3,2015,2001,28.67,True,True,False,False
+894,Hotel 894,Nashville,JW Marriott,2.6,162,"Spa, Free Breakfast",254.35,7,2000,2001,13.36,False,False,False,True
+895,Hotel 895,Fresno,Gaylord Hotels,3.7,125,"Pool, Gym, Free WiFi",416.69,6,1987,2001,45.85,True,True,True,True
+896,Hotel 896,Kansas City,Westin,1.8,268,"Restaurant, Pool",338.4,9,1984,2013,14.02,True,False,False,False
+897,Hotel 897,Baltimore,TownePlace Suites,2.2,121,"Pool, Gym, Free WiFi",140.5,6,2005,2008,44.89,True,True,False,False
+898,Hotel 898,Seattle,Premium,4.6,138,"Restaurant, Pool",438.86,5,1995,2017,6.07,False,True,True,False
+899,Hotel 899,Los Angeles,Premium,1.1,95,"Spa, Free Breakfast",312.43,10,2015,2012,33.17,True,False,True,False
+900,Hotel 900,Denver,Element by Westin,1.3,245,"Business Center, Free WiFi",436.69,7,2007,1997,45.44,False,True,True,False
+901,Hotel 901,El Paso,The Luxury Collection,1.8,82,"Business Center, Free WiFi",332.09,1,2008,1986,9.27,False,True,True,True
+902,Hotel 902,San Diego,Design Hotels,1.1,50,"Gym, Free Parking",323.88,7,1991,1980,48.45,True,True,True,False
+903,Hotel 903,San Francisco,Element by Westin,1.7,196,"Business Center, Free WiFi",142.1,3,2016,2012,23.19,False,True,False,False
+904,Hotel 904,Milwaukee,St. Regis,3.3,80,"Spa, Free Breakfast",166.94,9,2009,1980,47.34,False,False,True,True
+905,Hotel 905,Kansas City,TownePlace Suites,2.7,257,"Restaurant, Pool",488.81,6,2002,2003,34.16,True,False,False,True
+906,Hotel 906,Denver,Gaylord Hotels,4.6,191,"Pool, Gym, Free WiFi",191.39,9,1995,1983,15.78,True,True,False,True
+907,Hotel 907,Houston,Luxury,4.3,102,"Spa, Free Breakfast",490.98,5,1993,1983,10.23,True,True,True,False
+908,Hotel 908,Denver,Gaylord Hotels,2.4,97,"Pool, Gym, Free WiFi",312.77,7,1989,1997,15.88,False,False,False,True
+909,Hotel 909,Philadelphia,Marriott Executive Apartments,2.0,118,"Pool, Gym, Free WiFi",154.32,4,1986,2006,5.56,True,True,False,True
+910,Hotel 910,Long Beach,Le Méridien,2.5,154,"Business Center, Free WiFi",139.72,7,2016,2022,8.05,False,False,True,True
+911,Hotel 911,Seattle,Moxy Hotels,3.4,139,"Gym, Free Parking",183.55,1,2008,2011,6.13,False,True,False,True
+912,Hotel 912,Dallas,The Luxury Collection,2.1,239,"Business Center, Free WiFi",470.25,7,1982,2012,21.72,False,False,True,False
+913,Hotel 913,Sacramento,Sheraton,3.5,269,"Pool, Gym, Free WiFi",265.66,8,1994,2007,39.98,False,False,True,False
+914,Hotel 914,Columbus,JW Marriott,2.6,243,"Spa, Free Breakfast",258.17,5,2015,2021,7.93,False,False,True,False
+915,Hotel 915,Oklahoma City,Luxury,3.2,291,"Spa, Free Breakfast",225.28,2,1998,2020,7.39,True,False,False,True
+916,Hotel 916,Tucson,W Hotels,2.7,241,"Gym, Free Parking",158.82,5,1992,2015,32.53,True,True,False,True
+917,Hotel 917,Indianapolis,Design Hotels,2.2,247,"Restaurant, Pool",295.14,6,2021,1985,10.66,False,True,False,True
+918,Hotel 918,Louisville,Delta Hotels,4.8,112,"Business Center, Free WiFi",152.02,2,2000,1995,5.78,False,False,False,True
+919,Hotel 919,Fresno,Premium,4.1,122,"Restaurant, Pool",434.19,6,2016,2013,9.18,True,False,True,True
+920,Hotel 920,Louisville,Marriott Hotels,1.6,210,"Spa, Free Breakfast",248.16,6,2006,2002,46.26,True,False,False,True
+921,Hotel 921,Dallas,Delta Hotels,4.5,218,"Spa, Free Breakfast",249.92,1,2008,2021,41.25,False,False,True,False
+922,Hotel 922,Denver,The Luxury Collection,2.9,138,"Pool, Gym, Free WiFi",289.6,1,1999,2003,18.35,False,True,False,False
+923,Hotel 923,Los Angeles,JW Marriott,4.6,225,"Restaurant, Pool",277.65,10,2004,1992,33.14,True,False,False,True
+924,Hotel 924,Las Vegas,Autograph Collection Hotels,4.2,62,"Business Center, Free WiFi",497.94,3,1985,1997,27.33,True,False,False,False
+925,Hotel 925,Fresno,Sheraton,2.7,122,"Spa, Free Breakfast",318.15,10,2015,1992,34.18,False,False,False,True
+926,Hotel 926,Atlanta,Westin,1.1,294,"Spa, Free Breakfast",135.28,10,1981,2016,34.45,True,False,False,True
+927,Hotel 927,Oklahoma City,Marriott Executive Apartments,2.1,126,"Business Center, Free WiFi",342.75,3,2001,2022,31.81,True,False,True,False
+928,Hotel 928,Louisville,JW Marriott,3.2,208,"Restaurant, Pool",160.63,4,2011,2018,14.04,False,False,False,True
+929,Hotel 929,Tucson,TownePlace Suites,3.5,282,"Gym, Free Parking",112.38,2,1995,2021,2.91,False,False,False,False
+930,Hotel 930,Houston,Marriott Executive Apartments,2.0,252,"Restaurant, Pool",488.3,9,1997,1996,23.32,False,True,False,True
+931,Hotel 931,Austin,Design Hotels,1.6,117,"Business Center, Free WiFi",409.42,10,1984,1994,44.66,True,False,False,True
+932,Hotel 932,Mesa,SpringHill Suites,4.3,147,"Restaurant, Pool",492.04,7,2015,1997,28.91,False,False,True,False
+933,Hotel 933,Seattle,Fairfield by Marriott,4.9,174,"Pool, Gym, Free WiFi",291.15,7,2009,2002,41.79,True,False,False,True
+934,Hotel 934,Atlanta,Luxury,3.1,151,"Business Center, Free WiFi",312.9,6,1998,2009,49.59,False,True,True,True
+935,Hotel 935,Fresno,The Luxury Collection,1.7,287,"Restaurant, Pool",167.33,3,2002,2013,9.02,False,True,False,True
+936,Hotel 936,Los Angeles,Boutique,2.1,181,"Business Center, Free WiFi",198.76,6,2013,1983,34.9,True,True,True,False
+937,Hotel 937,Philadelphia,Courtyard by Marriott,1.1,151,"Spa, Free Breakfast",435.42,8,1992,1982,34.04,True,False,True,True
+938,Hotel 938,Long Beach,SpringHill Suites,4.7,68,"Pool, Gym, Free WiFi",242.47,8,2022,1986,49.02,False,False,True,True
+939,Hotel 939,Detroit,TownePlace Suites,1.5,247,"Gym, Free Parking",430.73,9,2008,1997,49.29,False,False,True,True
+940,Hotel 940,Louisville,TownePlace Suites,3.3,275,"Gym, Free Parking",383.61,1,2015,2021,34.65,True,True,True,False
+941,Hotel 941,Washington D.C.,Sheraton,2.1,131,"Business Center, Free WiFi",170.87,1,2001,1986,12.94,False,False,False,False
+942,Hotel 942,Dallas,Westin,3.2,190,"Pool, Gym, Free WiFi",302.98,3,2015,2019,40.13,True,True,True,False
+943,Hotel 943,Seattle,AC Hotels,3.6,282,"Pool, Gym, Free WiFi",370.95,3,1988,1985,6.24,True,True,False,False
+944,Hotel 944,Sacramento,The Ritz-Carlton,4.3,72,"Gym, Free Parking",194.01,10,2018,2001,39.25,False,True,True,False
+945,Hotel 945,Jacksonville,W Hotels,1.8,132,"Spa, Free Breakfast",432.28,8,1998,1980,45.6,True,True,True,True
+946,Hotel 946,Milwaukee,Boutique,1.0,158,"Gym, Free Parking",317.93,10,2017,1983,19.76,True,True,False,False
+947,Hotel 947,Columbus,Tribute Portfolio,1.5,124,"Spa, Free Breakfast",166.1,1,1985,2022,31.9,True,False,True,False
+948,Hotel 948,Chicago,Marriott Executive Apartments,4.6,178,"Business Center, Free WiFi",333.19,2,1994,2008,22.08,False,False,True,True
+949,Hotel 949,Charlotte,Autograph Collection Hotels,4.5,137,"Gym, Free Parking",499.89,2,1999,2000,22.45,True,True,True,False
+950,Hotel 950,Baltimore,Element by Westin,3.4,103,"Spa, Free Breakfast",160.21,3,1988,2005,16.21,False,False,True,True
+951,Hotel 951,Oklahoma City,Element by Westin,3.4,248,"Gym, Free Parking",426.7,6,2011,1993,38.34,False,False,False,False
+952,Hotel 952,Virginia Beach,Marriott Executive Apartments,3.7,138,"Business Center, Free WiFi",182.92,1,1983,1988,46.87,False,True,True,True
+953,Hotel 953,Denver,Premium,1.7,262,"Spa, Free Breakfast",412.96,2,1997,1991,47.1,True,True,True,True
+954,Hotel 954,Louisville,SpringHill Suites,4.7,192,"Spa, Free Breakfast",393.83,1,1984,2021,9.56,True,False,False,False
+955,Hotel 955,Long Beach,Fairfield by Marriott,2.7,114,"Gym, Free Parking",220.2,5,1999,1985,43.86,False,False,False,False
+956,Hotel 956,Las Vegas,Marriott Executive Apartments,2.5,125,"Business Center, Free WiFi",230.33,7,2002,1999,37.13,False,False,True,True
+957,Hotel 957,Baltimore,Tribute Portfolio,3.1,299,"Gym, Free Parking",417.01,8,1990,2003,13.39,True,False,True,True
+958,Hotel 958,San Francisco,Element by Westin,1.2,248,"Gym, Free Parking",284.58,10,2016,2006,4.3,False,True,False,True
+959,Hotel 959,Louisville,W Hotels,1.7,192,"Gym, Free Parking",392.33,1,2001,2017,14.13,False,False,True,True
+960,Hotel 960,San Francisco,Marriott Vacation Club,4.0,198,"Pool, Gym, Free WiFi",159.19,7,1983,1987,45.7,True,True,False,True
+961,Hotel 961,Columbus,St. Regis,1.3,196,"Restaurant, Pool",441.02,5,2008,1980,32.03,False,True,True,True
+962,Hotel 962,Mesa,Marriott Hotels,3.4,109,"Gym, Free Parking",384.35,10,2013,2003,36.33,True,False,False,True
+963,Hotel 963,Tucson,Tribute Portfolio,2.0,142,"Pool, Gym, Free WiFi",462.78,1,1992,1986,13.6,True,False,False,False
+964,Hotel 964,Louisville,Longer Stays,2.6,266,"Business Center, Free WiFi",152.95,3,2021,1998,36.25,False,False,False,True
+965,Hotel 965,Chicago,Boutique,2.2,210,"Gym, Free Parking",337.21,7,1988,2001,2.38,True,True,True,False
+966,Hotel 966,Louisville,Residence Inn,2.4,98,"Restaurant, Pool",339.65,10,2021,2014,19.39,True,True,True,False
+967,Hotel 967,Nashville,Moxy Hotels,3.9,273,"Spa, Free Breakfast",241.38,1,2010,2009,31.71,True,True,True,True
+968,Hotel 968,Memphis,Moxy Hotels,2.2,290,"Business Center, Free WiFi",283.39,7,1986,2008,8.16,False,True,True,True
+969,Hotel 969,Austin,Westin,3.3,84,"Pool, Gym, Free WiFi",115.19,5,1983,2001,41.33,False,False,False,False
+970,Hotel 970,Los Angeles,AC Hotels,2.9,221,"Spa, Free Breakfast",398.34,1,1998,1990,12.52,False,True,False,True
+971,Hotel 971,Memphis,Delta Hotels,3.7,151,"Business Center, Free WiFi",319.73,1,2021,1999,32.96,True,True,False,True
+972,Hotel 972,Mesa,Marriott Hotels,4.7,267,"Pool, Gym, Free WiFi",123.1,1,2009,2008,20.85,True,False,True,False
+973,Hotel 973,Seattle,Delta Hotels,3.9,60,"Restaurant, Pool",372.3,9,2010,2020,30.21,False,True,True,False
+974,Hotel 974,Memphis,Autograph Collection Hotels,1.9,148,"Gym, Free Parking",286.71,3,2014,2021,6.27,False,True,True,False
+975,Hotel 975,San Antonio,Westin,1.1,249,"Restaurant, Pool",113.78,5,2000,2013,1.83,True,False,False,True
+976,Hotel 976,San Antonio,Luxury,2.0,159,"Business Center, Free WiFi",487.84,10,2010,1980,45.57,False,True,True,True
+977,Hotel 977,San Jose,Boutique,3.4,255,"Pool, Gym, Free WiFi",479.64,9,1998,2010,14.21,False,True,True,False
+978,Hotel 978,Houston,Premium,1.2,123,"Restaurant, Pool",305.16,6,2010,2009,41.16,False,True,False,True
+979,Hotel 979,Phoenix,Premium,3.0,243,"Spa, Free Breakfast",137.47,9,2011,1997,49.97,False,True,False,False
+980,Hotel 980,Nashville,St. Regis,3.4,223,"Pool, Gym, Free WiFi",401.85,8,1981,1996,11.36,False,False,True,True
+981,Hotel 981,Charlotte,Residence Inn,2.3,58,"Restaurant, Pool",296.77,8,1989,2017,13.99,True,True,False,False
+982,Hotel 982,San Antonio,The Luxury Collection,4.1,52,"Restaurant, Pool",220.98,1,1981,1993,33.48,False,False,True,True
+983,Hotel 983,Long Beach,Select,1.4,134,"Gym, Free Parking",296.57,9,1981,2002,48.31,False,True,False,False
+984,Hotel 984,El Paso,Le Méridien,1.3,75,"Business Center, Free WiFi",308.98,6,2003,2004,45.87,True,False,False,True
+985,Hotel 985,Indianapolis,W Hotels,3.9,121,"Pool, Gym, Free WiFi",325.08,9,1996,1994,25.64,True,False,False,True
+986,Hotel 986,Las Vegas,The Ritz-Carlton,3.0,97,"Spa, Free Breakfast",276.49,3,2011,2001,39.96,True,False,True,False
+987,Hotel 987,Long Beach,Delta Hotels,3.8,243,"Pool, Gym, Free WiFi",342.3,3,1995,1982,7.65,True,True,True,True
+988,Hotel 988,San Francisco,Marriott Executive Apartments,2.7,247,"Pool, Gym, Free WiFi",467.49,6,1995,1998,48.89,False,True,True,True
+989,Hotel 989,Philadelphia,Marriott Vacation Club,2.0,205,"Gym, Free Parking",244.91,9,2018,2013,48.25,False,True,False,False
+990,Hotel 990,Virginia Beach,Tribute Portfolio,4.3,166,"Pool, Gym, Free WiFi",390.29,7,2010,2014,9.02,False,False,False,True
+991,Hotel 991,San Diego,Design Hotels,4.2,270,"Pool, Gym, Free WiFi",457.78,3,2022,1980,15.67,False,True,False,True
+992,Hotel 992,San Jose,Westin,3.8,203,"Spa, Free Breakfast",282.39,3,2003,2000,5.91,True,True,False,True
+993,Hotel 993,Long Beach,St. Regis,2.1,202,"Spa, Free Breakfast",277.38,2,1980,2008,14.31,True,True,True,False
+994,Hotel 994,Austin,Tribute Portfolio,3.4,61,"Spa, Free Breakfast",340.85,9,1990,1985,40.98,False,True,True,False
+995,Hotel 995,Boston,Marriott Executive Apartments,2.4,182,"Spa, Free Breakfast",336.56,3,2000,2016,19.54,False,False,True,False
+996,Hotel 996,Louisville,TownePlace Suites,1.4,275,"Gym, Free Parking",422.64,5,1983,1980,5.33,False,False,False,False
+997,Hotel 997,Fort Worth,Autograph Collection Hotels,4.7,97,"Restaurant, Pool",290.59,9,1986,1980,17.77,False,True,False,False
+998,Hotel 998,Louisville,SpringHill Suites,1.5,86,"Restaurant, Pool",498.45,8,2005,2006,49.09,True,True,True,True
+999,Hotel 999,Los Angeles,Boutique,4.8,256,"Spa, Free Breakfast",123.79,2,1991,2000,31.85,False,True,False,True
+1000,Hotel 1000,Atlanta,W Hotels,2.8,93,"Spa, Free Breakfast",101.27,3,2010,1995,21.39,True,False,True,False

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HotelMatch — Swipe Your Perfect Stay</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 55%, #f9ca24 100%);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 20px;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 52px;
+      margin-bottom: 8px;
+      animation: bounceIn 0.6s ease;
+    }
+    @keyframes bounceIn {
+      0% { transform: scale(0.5); opacity: 0; }
+      70% { transform: scale(1.1); }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    h1 {
+      font-size: 40px;
+      font-weight: 900;
+      color: white;
+      line-height: 1.1;
+      margin-bottom: 8px;
+      animation: fadeUp 0.5s ease 0.1s both;
+    }
+    .tagline {
+      font-size: 16px;
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 40px;
+      font-weight: 500;
+      animation: fadeUp 0.5s ease 0.2s both;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Feature pills */
+    .features {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 40px;
+      animation: fadeUp 0.5s ease 0.3s both;
+    }
+    .feature-pill {
+      background: rgba(255,255,255,0.2);
+      color: white;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 8px 16px;
+      border-radius: 20px;
+      border: 1.5px solid rgba(255,255,255,0.3);
+    }
+
+    .card {
+      background: white;
+      border-radius: 28px;
+      padding: 36px 32px;
+      width: 100%;
+      max-width: 380px;
+      box-shadow: 0 24px 64px rgba(0,0,0,0.2);
+      animation: fadeUp 0.5s ease 0.35s both;
+    }
+
+    .card h2 {
+      font-size: 20px;
+      font-weight: 800;
+      color: #1a1a1a;
+      margin-bottom: 6px;
+    }
+    .card p {
+      font-size: 13px;
+      color: #888;
+      margin-bottom: 28px;
+    }
+
+    .btn-block {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      border-radius: 50px;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+      transition: transform 0.15s, box-shadow 0.15s;
+      text-align: center;
+    }
+    .btn-block:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.15); }
+    .btn-block:active { transform: translateY(0); }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+      color: white;
+      margin-bottom: 12px;
+    }
+    .btn-secondary {
+      background: white;
+      color: #ee5a24;
+      border: 2px solid #ee5a24;
+    }
+
+    .footer-text {
+      color: rgba(255,255,255,0.6);
+      font-size: 11px;
+      margin-top: 24px;
+      animation: fadeUp 0.5s ease 0.5s both;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo">🏨</div>
+  <h1>HotelMatch</h1>
+  <p class="tagline">Swipe. Match. Stay. Your perfect hotel is one swipe away.</p>
+
+  <div class="features">
+    <span class="feature-pill">🔥 Match Score</span>
+    <span class="feature-pill">⭐ Super Like</span>
+    <span class="feature-pill">💬 Hotel Chatbot</span>
+    <span class="feature-pill">🌹 Vibe Tags</span>
+  </div>
+
+  <div class="card">
+    <h2>Find your perfect stay</h2>
+    <p>Powered by Marriott Bonvoy — swipe through hotels matched to your style and budget.</p>
+    <a href="{{ url_for('login') }}" class="btn-block btn-primary">
+      <i class="fas fa-sign-in-alt"></i> Log In
+    </a>
+    <a href="{{ url_for('register') }}" class="btn-block btn-secondary">
+      <i class="fas fa-user-plus"></i> Create Account
+    </a>
+  </div>
+
+  <p class="footer-text">© 2024 HotelMatch · Powered by Marriott Bonvoy</p>
+
+</body>
+</html>
